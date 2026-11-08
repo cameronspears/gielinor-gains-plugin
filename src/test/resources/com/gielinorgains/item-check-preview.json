@@ -1,0 +1,18 @@
+{
+  "_about": "Sample numbers for the README pictures only (BoxPreviewTest). The real feed shape is item-check-v1.json.",
+  "v": 1,
+  "minPlugin": 1,
+  "fresh": true,
+  "computedAt": 1792929670000,
+  "sourceAt": 1792929600000,
+  "staleAt": 1792930500000,
+  "recordsComplete": true,
+  "items": {
+    "2": { "flip": { "buy": 259, "sell": 269, "qty": 11000, "expectedProfit": 21000, "profitIfAllSells": 55000, "chance": 0.69 }, "record": { "avgReturn": 0.03, "flips": 12, "checks": "1101101111" } },
+    "561": { "flip": { "buy": 90, "sell": 96, "qty": 15000, "expectedProfit": 15535, "profitIfAllSells": 60000, "chance": 0.681 }, "record": { "avgReturn": 0.011, "flips": 6 } },
+    "12934": { "flip": { "buy": 182, "sell": 189, "qty": 16500, "expectedProfit": 48120, "profitIfAllSells": 84000, "chance": 0.74 }, "record": { "avgReturn": 0.021, "flips": 10, "checks": "1111011101" } },
+    "6685": { "flip": { "buy": 7412, "sell": 7690, "qty": 400, "expectedProfit": 33910, "profitIfAllSells": 50300, "chance": 0.66 }, "record": { "avgReturn": 0.012, "flips": 9, "checks": "011101110" } },
+    "5295": { "flip": { "buy": 42150, "sell": 43890, "qty": 95, "expectedProfit": 29400, "profitIfAllSells": 81000, "chance": 0.58 }, "record": { "avgReturn": -0.004, "flips": 7, "checks": "1010010" } },
+    "536": { "flip": { "buy": 2104, "sell": 2189, "qty": 1400, "expectedProfit": 12050, "profitIfAllSells": 58600, "chance": 0.71 } }
+  }
+}

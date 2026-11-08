@@ -1,0 +1,330 @@
+{
+  "v": 1,
+  "numbers": [
+    [
+      0,
+      "0"
+    ],
+    [
+      1,
+      "1"
+    ],
+    [
+      812,
+      "812"
+    ],
+    [
+      999,
+      "999"
+    ],
+    [
+      1000,
+      "1K"
+    ],
+    [
+      1499,
+      "1K"
+    ],
+    [
+      1500,
+      "1K"
+    ],
+    [
+      9999,
+      "9K"
+    ],
+    [
+      10412,
+      "10K"
+    ],
+    [
+      20800,
+      "20K"
+    ],
+    [
+      29999,
+      "29K"
+    ],
+    [
+      999999,
+      "999K"
+    ],
+    [
+      1000000,
+      "1M"
+    ],
+    [
+      1009999,
+      "1M"
+    ],
+    [
+      1204999,
+      "1.20M"
+    ],
+    [
+      1205000,
+      "1.20M"
+    ],
+    [
+      1999999,
+      "1.99M"
+    ],
+    [
+      12345678,
+      "12.34M"
+    ],
+    [
+      999999999,
+      "999.99M"
+    ],
+    [
+      1000000000,
+      "1B"
+    ],
+    [
+      2147483647,
+      "2.14B"
+    ],
+    [
+      -1,
+      "-1"
+    ],
+    [
+      -812,
+      "-812"
+    ],
+    [
+      -1000,
+      "-1K"
+    ],
+    [
+      -12345,
+      "-12K"
+    ],
+    [
+      -999999,
+      "-999K"
+    ],
+    [
+      -1234567,
+      "-1.23M"
+    ],
+    [
+      -2000000000,
+      "-2B"
+    ]
+  ],
+  "chances": [
+    [
+      0,
+      "0%"
+    ],
+    [
+      0.004,
+      "0%"
+    ],
+    [
+      0.005,
+      "1%"
+    ],
+    [
+      0.0051,
+      "1%"
+    ],
+    [
+      0.125,
+      "13%"
+    ],
+    [
+      0.5,
+      "50%"
+    ],
+    [
+      0.694,
+      "69%"
+    ],
+    [
+      0.695,
+      "70%"
+    ],
+    [
+      0.79,
+      "79%"
+    ],
+    [
+      0.994,
+      "99%"
+    ],
+    [
+      0.995,
+      "100%"
+    ],
+    [
+      1,
+      "100%"
+    ]
+  ],
+  "signedPercents": [
+    [
+      0,
+      "0.0%"
+    ],
+    [
+      0.0004,
+      "0.0%"
+    ],
+    [
+      0.0005,
+      "+0.1%"
+    ],
+    [
+      0.00049,
+      "0.0%"
+    ],
+    [
+      -0.0004,
+      "0.0%"
+    ],
+    [
+      -0.0005,
+      "0.0%"
+    ],
+    [
+      -0.009,
+      "-0.9%"
+    ],
+    [
+      0.011,
+      "+1.1%"
+    ],
+    [
+      0.062,
+      "+6.2%"
+    ],
+    [
+      0.1235,
+      "+12.4%"
+    ],
+    [
+      -0.25,
+      "-25.0%"
+    ]
+  ],
+  "trackRecords": [
+    [
+      {
+        "avgReturn": 0.062,
+        "flips": 12
+      },
+      "+6.2% after tax over 12 tests"
+    ],
+    [
+      {
+        "avgReturn": -0.009,
+        "flips": 3
+      },
+      "-0.9% after tax over 3 tests"
+    ],
+    [
+      {
+        "avgReturn": 0.04,
+        "flips": 1
+      },
+      "+4.0% after tax over 1 test"
+    ],
+    [
+      {
+        "avgReturn": 0,
+        "flips": 2
+      },
+      "0.0% after tax over 2 tests"
+    ]
+  ],
+  "recentChecks": [
+    [
+      {
+        "madeMoney": 1,
+        "total": 1
+      },
+      "Last test: made money"
+    ],
+    [
+      {
+        "madeMoney": 0,
+        "total": 1
+      },
+      "Last test: didn't make money"
+    ],
+    [
+      {
+        "madeMoney": 7,
+        "total": 10
+      },
+      "Last 10 tests: 7 made money"
+    ],
+    [
+      {
+        "madeMoney": 0,
+        "total": 2
+      },
+      "Last 2 tests: 0 made money"
+    ],
+    [
+      {
+        "madeMoney": 3,
+        "total": 3
+      },
+      "Last 3 tests: 3 made money"
+    ]
+  ],
+  "reasons": {
+    "missing_prices": "The OSRS Wiki doesn't have both a buy and a sell price for it right now.",
+    "low_volume": "Almost nobody traded it in the last day, so an offer might never fill.",
+    "short_history": "There aren't enough recent trades to work out good prices for it.",
+    "stale_prices": "Its latest prices aren't recent enough to trust right now.",
+    "no_profit_after_tax": "The gap between its buy and sell prices is too small to make money after tax.",
+    "small_profit": "Buying as many as recent trades can fill would make under 8,000 GP after tax.",
+    "wide_spread": "Its buy and sell prices are too far apart to trust.",
+    "zero_quantity": "Not enough has traded near these prices lately to suggest buying any.",
+    "too_expensive": "One costs more than 3M GP, the most the Market suggests putting into one item.",
+    "price_spike": "Its price just jumped, and too few sales at the new price back it up yet.",
+    "thin_margin": "Each item makes so little profit that a tiny price drop would wipe it out.",
+    "thin_exit": "Few players have bought it at the sell price lately, so it might not sell."
+  },
+  "reasonFallback": "It isn't one of today's suggestions. The Market's checks on price, trading and the 2% tax don't support a flip right now.",
+  "sharedLimitNotices": [
+    [
+      1,
+      "No automatic pick has room right now. Other Trader players have already planned as much of one item as the market can take. Room opens again at {time}. You can choose items yourself until then."
+    ],
+    [
+      3,
+      "No automatic pick has room right now. Other Trader players have already planned as much of 3 items as the market can take. Room opens again at {time}. You can choose items yourself until then."
+    ]
+  ],
+  "pump": {
+    "title": "You may be buying at the top",
+    "body": "Jumps like this often fall back. In past jumps, about half dropped by more than a tenth within a week. Waiting a week got a lower price more than half the time. About 1 in 4 kept rising, so it's your call.",
+    "rises": [
+      [
+        0.12,
+        "It's up about 15% on the week before, after jumping on far more trades than usual."
+      ],
+      [
+        0.42,
+        "It's up about 40% on the week before, after jumping on far more trades than usual."
+      ],
+      [
+        1.27,
+        "It's up about 125% on the week before, after jumping on far more trades than usual."
+      ]
+    ]
+  },
+  "makeSell": {
+    "heading": "Make and Sell has room",
+    "summary": "Trader's picks are full right now.",
+    "explainer": "You can still use your GP. Buy on the GE, change it in the game, then sell.",
+    "planned": "Planned at today's prices, after tax",
+    "empty": "Room opens again at {time}. You can still pick any swap yourself in Make and Sell."
+  }
+}

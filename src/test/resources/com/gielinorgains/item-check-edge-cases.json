@@ -1,0 +1,122 @@
+{
+  "v": 1,
+  "minPlugin": 1,
+  "fresh": true,
+  "computedAt": 1792929670000,
+  "sourceAt": 1792929600000,
+  "staleAt": 1792930500000,
+  "aFieldFromLater": {
+    "plugins": "ignore me"
+  },
+  "items": {
+    "7416": {
+      "flip": {
+        "buy": 5844,
+        "sell": 6387,
+        "qty": 50,
+        "expectedProfit": 10412,
+        "profitIfAllSells": 20800,
+        "chance": 0.79
+      },
+      "record": {
+        "avgReturn": 0.062,
+        "flips": 12,
+        "checks": "1101101101"
+      }
+    },
+    "4151": {
+      "skip": "no_profit_after_tax",
+      "record": {
+        "avgReturn": -0.009,
+        "flips": 3,
+        "checks": "0"
+      }
+    },
+    "20997": {
+      "skip": "too_expensive"
+    },
+    "13190": {
+      "flip": {
+        "buy": 9800000,
+        "sell": 10450000,
+        "qty": 1,
+        "expectedProfit": 182500.5,
+        "profitIfAllSells": 345000,
+        "chance": 0.615
+      },
+      "record": {
+        "avgReturn": 0.0125,
+        "flips": 1,
+        "checks": "1"
+      }
+    },
+    "2": {
+      "flip": {
+        "buy": 160,
+        "sell": 171,
+        "qty": 11000,
+        "expectedProfit": 61234,
+        "profitIfAllSells": 84040,
+        "chance": 0.88,
+        "notYetKnown": true
+      },
+      "record": {
+        "avgReturn": 0.0621,
+        "flips": 3,
+        "checks": ""
+      }
+    },
+    "561": {
+      "skip": "small_profit",
+      "record": {
+        "avgReturn": 0.004,
+        "flips": 2,
+        "checks": "10"
+      }
+    },
+    "565": {
+      "skip": "a_reason_added_later"
+    },
+    "12": {
+      "record": {
+        "avgReturn": 0.03,
+        "flips": 12,
+        "checks": "111110000011"
+      }
+    },
+    "13": {
+      "flip": {
+        "buy": 100,
+        "sell": 120,
+        "qty": 5,
+        "expectedProfit": 50,
+        "profitIfAllSells": 80
+      }
+    },
+    "14": {
+      "flip": {
+        "buy": 100,
+        "sell": 120,
+        "qty": 5,
+        "expectedProfit": 50,
+        "profitIfAllSells": 80,
+        "chance": 1.4
+      }
+    },
+    "15": {
+      "record": {
+        "avgReturn": 0.01,
+        "flips": 4,
+        "checks": "10x1"
+      }
+    },
+    "abc": {
+      "skip": "low_volume"
+    },
+    "-3": {
+      "skip": "low_volume"
+    }
+  },
+  "recordsComplete": true,
+  "_about": "Hand-written edge cases (bad keys, broken flips, odd checks, unknown fields, the bond). The real feed shape is item-check-v1.json, copied from the site."
+}

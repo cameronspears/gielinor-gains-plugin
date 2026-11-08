@@ -1,0 +1,66 @@
+{
+  "v": 1,
+  "minPlugin": 1,
+  "fresh": true,
+  "computedAt": 1792929670000,
+  "sourceAt": 1792929600000,
+  "staleAt": 1792930500000,
+  "recordsComplete": true,
+  "items": {
+    "2": {
+      "flip": {
+        "buy": 259,
+        "sell": 269,
+        "qty": 11000,
+        "expectedProfit": 21000,
+        "profitIfAllSells": 55000,
+        "chance": 0.69
+      },
+      "record": {
+        "avgReturn": 0.03,
+        "flips": 12,
+        "checks": "1101101111"
+      }
+    },
+    "561": {
+      "flip": {
+        "buy": 90,
+        "sell": 96,
+        "qty": 15000,
+        "expectedProfit": 15535,
+        "profitIfAllSells": 60000,
+        "chance": 0.681
+      },
+      "record": {
+        "avgReturn": 0.011,
+        "flips": 6
+      }
+    },
+    "995": {
+      "skip": "missing_prices"
+    },
+    "4151": {
+      "skip": "no_profit_after_tax",
+      "record": {
+        "avgReturn": -0.009,
+        "flips": 3,
+        "checks": "0"
+      }
+    },
+    "11832": {
+      "pump": {
+        "rise": 1.27,
+        "since": 1792800000
+      }
+    },
+    "11840": {
+      "record": {
+        "avgReturn": 0.04,
+        "flips": 2
+      }
+    },
+    "20997": {
+      "skip": "too_expensive"
+    }
+  }
+}
