@@ -5933,1286 +5933,6 @@
    "expected": null
   }
  ],
- "raise": [
-  {
-   "offer": {
-    "price": 370,
-    "filled": 0,
-    "total": 8877
-   },
-   "pick": {
-    "id": 1002,
-    "name": "Blighted ancient ice sack 2",
-    "members": true,
-    "limit": 15000,
-    "buy": 381,
-    "sell": 394,
-    "qty": 8877,
-    "qtyLarge": 14204,
-    "qtyLimit": 11634,
-    "minQty": 4167,
-    "maxQty": 11634,
-    "tier": "p",
-    "reserveEach": 4,
-    "expectedEach": 3.6,
-    "chance": 0.73,
-    "proven": 1,
-    "thin": 11634,
-    "record": {
-     "avgReturn": 0.04277180209057406,
-     "flips": 4
-    },
-    "low": 381,
-    "high": 394,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 381,
-    "qty": 8620,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 381,
-    "filled": 0,
-    "total": 8877
-   },
-   "pick": {
-    "id": 1002,
-    "name": "Blighted ancient ice sack 2",
-    "members": true,
-    "limit": 15000,
-    "buy": 381,
-    "sell": 394,
-    "qty": 8877,
-    "qtyLarge": 14204,
-    "qtyLimit": 11634,
-    "minQty": 4167,
-    "maxQty": 11634,
-    "tier": "p",
-    "reserveEach": 4,
-    "expectedEach": 3.6,
-    "chance": 0.73,
-    "proven": 1,
-    "thin": 11634,
-    "record": {
-     "avgReturn": 0.04277180209057406,
-     "flips": 4
-    },
-    "low": 381,
-    "high": 394,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 1653726,
-    "filled": 3,
-    "total": 7
-   },
-   "pick": {
-    "id": 1013,
-    "name": "Brimstone ring 13",
-    "members": true,
-    "limit": 8,
-    "buy": 1653727,
-    "sell": 1752951,
-    "qty": 7,
-    "qtyLarge": 8,
-    "qtyLimit": 8,
-    "minQty": 1,
-    "maxQty": 8,
-    "tier": "p",
-    "reserveEach": 55576,
-    "expectedEach": 38499,
-    "chance": 0.586,
-    "thin": 8,
-    "low": 1653727,
-    "high": 1752951,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 77,
-    "filled": 0,
-    "total": 5092
-   },
-   "pick": {
-    "id": 1015,
-    "name": "Mud rune 15",
-    "members": true,
-    "limit": 18000,
-    "buy": 79,
-    "sell": 82,
-    "qty": 5092,
-    "qtyLarge": 8148,
-    "qtyLimit": 14896,
-    "minQty": 0,
-    "maxQty": 0,
-    "tier": "p",
-    "reserveEach": 1,
-    "expectedEach": 1.2,
-    "chance": 0.877,
-    "proven": 9,
-    "thin": 8148,
-    "record": {
-     "avgReturn": 0.029506953856907783,
-     "flips": 4
-    },
-    "low": 79,
-    "high": 82,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 79,
-    "qty": 4963,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 79,
-    "filled": 0,
-    "total": 5092
-   },
-   "pick": {
-    "id": 1015,
-    "name": "Mud rune 15",
-    "members": true,
-    "limit": 18000,
-    "buy": 79,
-    "sell": 82,
-    "qty": 5092,
-    "qtyLarge": 8148,
-    "qtyLimit": 14896,
-    "minQty": 0,
-    "maxQty": 0,
-    "tier": "p",
-    "reserveEach": 1,
-    "expectedEach": 1.2,
-    "chance": 0.877,
-    "proven": 9,
-    "thin": 8148,
-    "record": {
-     "avgReturn": 0.029506953856907783,
-     "flips": 4
-    },
-    "low": 79,
-    "high": 82,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 456,
-    "filled": 3,
-    "total": 5078
-   },
-   "pick": {
-    "id": 1023,
-    "name": "Blighted ancient ice sack 23",
-    "members": true,
-    "limit": 15000,
-    "buy": 457,
-    "sell": 484,
-    "qty": 5078,
-    "qtyLarge": 8125,
-    "qtyLimit": 15507,
-    "minQty": 1389,
-    "maxQty": 8125,
-    "tier": "p",
-    "reserveEach": 15,
-    "expectedEach": 10.8,
-    "chance": 0.522,
-    "thin": 8125,
-    "low": 457,
-    "high": 484,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 457,
-    "qty": 5063,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 272,
-    "filled": 0,
-    "total": 16579
-   },
-   "pick": {
-    "id": 1027,
-    "name": "Demon tear 27",
-    "members": true,
-    "limit": 13000,
-    "buy": 280,
-    "sell": 290,
-    "qty": 16579,
-    "qtyLarge": 16579,
-    "qtyLimit": 127395,
-    "minQty": 5000,
-    "maxQty": 16579,
-    "tier": "p",
-    "reserveEach": 3,
-    "expectedEach": 3,
-    "chance": 0.608,
-    "thin": 16579,
-    "low": 280,
-    "high": 290,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 280,
-    "qty": 16105,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 280,
-    "filled": 0,
-    "total": 16579
-   },
-   "pick": {
-    "id": 1027,
-    "name": "Demon tear 27",
-    "members": true,
-    "limit": 13000,
-    "buy": 280,
-    "sell": 290,
-    "qty": 16579,
-    "qtyLarge": 16579,
-    "qtyLimit": 127395,
-    "minQty": 5000,
-    "maxQty": 16579,
-    "tier": "p",
-    "reserveEach": 3,
-    "expectedEach": 3,
-    "chance": 0.608,
-    "thin": 16579,
-    "low": 280,
-    "high": 290,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 256249,
-    "filled": 3,
-    "total": 3
-   },
-   "pick": {
-    "id": 1030,
-    "name": "Kraken tentacle 30",
-    "members": true,
-    "limit": 70,
-    "buy": 256250,
-    "sell": 271625,
-    "qty": 3,
-    "qtyLarge": 5,
-    "qtyLimit": 14,
-    "minQty": 3,
-    "maxQty": 5,
-    "tier": "p",
-    "reserveEach": 8611,
-    "expectedEach": 5965.67,
-    "chance": 0.838,
-    "thin": 5,
-    "low": 256250,
-    "high": 271625,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 220,
-    "filled": 0,
-    "total": 15368
-   },
-   "pick": {
-    "id": 1033,
-    "name": "Steel cannonball 33",
-    "members": true,
-    "limit": 11000,
-    "buy": 227,
-    "sell": 241,
-    "qty": 15368,
-    "qtyLarge": 15368,
-    "qtyLimit": 59175,
-    "minQty": 2500,
-    "maxQty": 15368,
-    "tier": "p",
-    "reserveEach": 8,
-    "expectedEach": 6,
-    "chance": 0.586,
-    "thin": 15368,
-    "low": 227,
-    "high": 241,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 227,
-    "qty": 14894,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 227,
-    "filled": 0,
-    "total": 15368
-   },
-   "pick": {
-    "id": 1033,
-    "name": "Steel cannonball 33",
-    "members": true,
-    "limit": 11000,
-    "buy": 227,
-    "sell": 241,
-    "qty": 15368,
-    "qtyLarge": 15368,
-    "qtyLimit": 59175,
-    "minQty": 2500,
-    "maxQty": 15368,
-    "tier": "p",
-    "reserveEach": 8,
-    "expectedEach": 6,
-    "chance": 0.586,
-    "thin": 15368,
-    "low": 227,
-    "high": 241,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 1419,
-    "filled": 3,
-    "total": 976
-   },
-   "pick": {
-    "id": 1035,
-    "name": "Dwarf weed potion (unf) 35",
-    "members": true,
-    "limit": 10000,
-    "buy": 1420,
-    "sell": 1505,
-    "qty": 976,
-    "qtyLarge": 1562,
-    "qtyLimit": 2377,
-    "minQty": 455,
-    "maxQty": 1562,
-    "tier": "p",
-    "reserveEach": 48,
-    "expectedEach": 33,
-    "chance": 0.484,
-    "thin": 1562,
-    "low": 1420,
-    "high": 1505,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 189,
-    "filled": 0,
-    "total": 24012
-   },
-   "pick": {
-    "id": 1046,
-    "name": "Revenant ether 46",
-    "members": true,
-    "limit": 30000,
-    "buy": 195,
-    "sell": 207,
-    "qty": 24012,
-    "qtyLarge": 30000,
-    "qtyLimit": 103723,
-    "minQty": 3125,
-    "maxQty": 30000,
-    "tier": "p",
-    "reserveEach": 6,
-    "expectedEach": 4.8,
-    "chance": 0.681,
-    "thin": 30000,
-    "low": 195,
-    "high": 207,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 195,
-    "qty": 23273,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 195,
-    "filled": 0,
-    "total": 24012
-   },
-   "pick": {
-    "id": 1046,
-    "name": "Revenant ether 46",
-    "members": true,
-    "limit": 30000,
-    "buy": 195,
-    "sell": 207,
-    "qty": 24012,
-    "qtyLarge": 30000,
-    "qtyLimit": 103723,
-    "minQty": 3125,
-    "maxQty": 30000,
-    "tier": "p",
-    "reserveEach": 6,
-    "expectedEach": 4.8,
-    "chance": 0.681,
-    "thin": 30000,
-    "low": 195,
-    "high": 207,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 1899061,
-    "filled": 3,
-    "total": 2
-   },
-   "pick": {
-    "id": 1055,
-    "name": "Brimstone ring 55",
-    "members": true,
-    "limit": 8,
-    "buy": 1899062,
-    "sell": 2013006,
-    "qty": 2,
-    "qtyLarge": 4,
-    "qtyLimit": 9,
-    "minQty": 1,
-    "maxQty": 4,
-    "tier": "p",
-    "reserveEach": 63820,
-    "expectedEach": 44210.5,
-    "chance": 0.512,
-    "proven": 0,
-    "thin": 4,
-    "record": {
-     "avgReturn": 0.03965666512260213,
-     "flips": 4
-    },
-    "low": 1899062,
-    "high": 2013006,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 11184,
-    "filled": 0,
-    "total": 58
-   },
-   "pick": {
-    "id": 1063,
-    "name": "Snape grass seed 63",
-    "members": true,
-    "limit": 200,
-    "buy": 11530,
-    "sell": 12222,
-    "qty": 58,
-    "qtyLarge": 93,
-    "qtyLimit": 315,
-    "minQty": 56,
-    "maxQty": 93,
-    "tier": "p",
-    "reserveEach": 387,
-    "expectedEach": 268.79,
-    "chance": 0.577,
-    "thin": 93,
-    "low": 11530,
-    "high": 12222,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 11530,
-    "qty": 56,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 11530,
-    "filled": 0,
-    "total": 58
-   },
-   "pick": {
-    "id": 1063,
-    "name": "Snape grass seed 63",
-    "members": true,
-    "limit": 200,
-    "buy": 11530,
-    "sell": 12222,
-    "qty": 58,
-    "qtyLarge": 93,
-    "qtyLimit": 315,
-    "minQty": 56,
-    "maxQty": 93,
-    "tier": "p",
-    "reserveEach": 387,
-    "expectedEach": 268.79,
-    "chance": 0.577,
-    "thin": 93,
-    "low": 11530,
-    "high": 12222,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 1560070,
-    "filled": 3,
-    "total": 7
-   },
-   "pick": {
-    "id": 1064,
-    "name": "Tome of Fire (empty) 64",
-    "members": true,
-    "limit": 15,
-    "buy": 1560071,
-    "sell": 1653675,
-    "qty": 7,
-    "qtyLarge": 12,
-    "qtyLimit": 13,
-    "minQty": 1,
-    "maxQty": 9,
-    "tier": "p",
-    "reserveEach": 52427,
-    "expectedEach": 36318.57,
-    "chance": 0.767,
-    "thin": 12,
-    "low": 1560071,
-    "high": 1653675,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 428,
-    "filled": 0,
-    "total": 6141
-   },
-   "pick": {
-    "id": 1065,
-    "name": "Blighted ancient ice sack 65",
-    "members": true,
-    "limit": 15000,
-    "buy": 441,
-    "sell": 456,
-    "qty": 6141,
-    "qtyLarge": 9826,
-    "qtyLimit": 8989,
-    "minQty": 4167,
-    "maxQty": 8989,
-    "tier": "f",
-    "reserveEach": 3,
-    "expectedEach": 3.6,
-    "chance": 0.777,
-    "thin": 8989,
-    "low": 441,
-    "high": 456,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 441,
-    "qty": 5959,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 441,
-    "filled": 0,
-    "total": 6141
-   },
-   "pick": {
-    "id": 1065,
-    "name": "Blighted ancient ice sack 65",
-    "members": true,
-    "limit": 15000,
-    "buy": 441,
-    "sell": 456,
-    "qty": 6141,
-    "qtyLarge": 9826,
-    "qtyLimit": 8989,
-    "minQty": 4167,
-    "maxQty": 8989,
-    "tier": "f",
-    "reserveEach": 3,
-    "expectedEach": 3.6,
-    "chance": 0.777,
-    "thin": 8989,
-    "low": 441,
-    "high": 456,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 1894664,
-    "filled": 3,
-    "total": 7
-   },
-   "pick": {
-    "id": 1076,
-    "name": "Brimstone ring 76",
-    "members": true,
-    "limit": 8,
-    "buy": 1894665,
-    "sell": 2008345,
-    "qty": 7,
-    "qtyLarge": 8,
-    "qtyLimit": 7,
-    "minQty": 1,
-    "maxQty": 7,
-    "tier": "p",
-    "reserveEach": 63672,
-    "expectedEach": 44108.43,
-    "chance": 0.638,
-    "proven": 7,
-    "thin": 7,
-    "record": {
-     "avgReturn": 0.04804140558931977,
-     "flips": 4
-    },
-    "low": 1894665,
-    "high": 2008345,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 4842704,
-    "filled": 0,
-    "total": 3
-   },
-   "pick": {
-    "id": 1083,
-    "name": "Master wand 83",
-    "members": true,
-    "limit": 70,
-    "buy": 4992478,
-    "sell": 5292027,
-    "qty": 3,
-    "qtyLarge": 5,
-    "qtyLimit": 3,
-    "minQty": 1,
-    "maxQty": 2,
-    "tier": "p",
-    "reserveEach": 167777,
-    "expectedEach": 116225.33,
-    "chance": 0.467,
-    "thin": 3,
-    "low": 4992478,
-    "high": 5292027,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 4992478,
-    "qty": 2,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 4992478,
-    "filled": 0,
-    "total": 3
-   },
-   "pick": {
-    "id": 1083,
-    "name": "Master wand 83",
-    "members": true,
-    "limit": 70,
-    "buy": 4992478,
-    "sell": 5292027,
-    "qty": 3,
-    "qtyLarge": 5,
-    "qtyLimit": 3,
-    "minQty": 1,
-    "maxQty": 2,
-    "tier": "p",
-    "reserveEach": 167777,
-    "expectedEach": 116225.33,
-    "chance": 0.467,
-    "thin": 3,
-    "low": 4992478,
-    "high": 5292027,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 406,
-    "filled": 3,
-    "total": 9404
-   },
-   "pick": {
-    "id": 1086,
-    "name": "Blighted ancient ice sack 86",
-    "members": true,
-    "limit": 15000,
-    "buy": 407,
-    "sell": 421,
-    "qty": 9404,
-    "qtyLarge": 15000,
-    "qtyLimit": 8956,
-    "minQty": 4167,
-    "maxQty": 8956,
-    "tier": "f",
-    "reserveEach": 3,
-    "expectedEach": 3.6,
-    "chance": 0.757,
-    "thin": 8956,
-    "low": 407,
-    "high": 421,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 407,
-    "qty": 9377,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 210,
-    "filled": 0,
-    "total": 8867
-   },
-   "pick": {
-    "id": 1096,
-    "name": "Steel cannonball 96",
-    "members": true,
-    "limit": 11000,
-    "buy": 216,
-    "sell": 224,
-    "qty": 8867,
-    "qtyLarge": 11000,
-    "qtyLimit": 194145,
-    "minQty": 6250,
-    "maxQty": 11000,
-    "tier": "f",
-    "reserveEach": 2,
-    "expectedEach": 2.4,
-    "chance": 0.682,
-    "thin": 11000,
-    "low": 216,
-    "high": 224,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 216,
-    "qty": 8620,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 216,
-    "filled": 0,
-    "total": 8867
-   },
-   "pick": {
-    "id": 1096,
-    "name": "Steel cannonball 96",
-    "members": true,
-    "limit": 11000,
-    "buy": 216,
-    "sell": 224,
-    "qty": 8867,
-    "qtyLarge": 11000,
-    "qtyLimit": 194145,
-    "minQty": 6250,
-    "maxQty": 11000,
-    "tier": "f",
-    "reserveEach": 2,
-    "expectedEach": 2.4,
-    "chance": 0.682,
-    "thin": 11000,
-    "low": 216,
-    "high": 224,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 1344573,
-    "filled": 3,
-    "total": 8
-   },
-   "pick": {
-    "id": 1097,
-    "name": "Brimstone ring 97",
-    "members": true,
-    "limit": 8,
-    "buy": 1344574,
-    "sell": 1386256,
-    "qty": 8,
-    "qtyLarge": 8,
-    "qtyLimit": 10,
-    "minQty": 2,
-    "maxQty": 3,
-    "tier": "f",
-    "reserveEach": 7164,
-    "expectedEach": 11536.75,
-    "chance": 0.518,
-    "thin": 8,
-    "low": 1344574,
-    "high": 1386256,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 12659,
-    "filled": 0,
-    "total": 79
-   },
-   "pick": {
-    "id": 1105,
-    "name": "Snape grass seed 105",
-    "members": true,
-    "limit": 200,
-    "buy": 13050,
-    "sell": 13833,
-    "qty": 79,
-    "qtyLarge": 127,
-    "qtyLimit": 241,
-    "minQty": 50,
-    "maxQty": 127,
-    "tier": "p",
-    "reserveEach": 438,
-    "expectedEach": 304.2,
-    "chance": 0.466,
-    "thin": 127,
-    "low": 13050,
-    "high": 13833,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 13050,
-    "qty": 76,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 13050,
-    "filled": 0,
-    "total": 79
-   },
-   "pick": {
-    "id": 1105,
-    "name": "Snape grass seed 105",
-    "members": true,
-    "limit": 200,
-    "buy": 13050,
-    "sell": 13833,
-    "qty": 79,
-    "qtyLarge": 127,
-    "qtyLimit": 241,
-    "minQty": 50,
-    "maxQty": 127,
-    "tier": "p",
-    "reserveEach": 438,
-    "expectedEach": 304.2,
-    "chance": 0.466,
-    "thin": 127,
-    "low": 13050,
-    "high": 13833,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 1752595,
-    "filled": 3,
-    "total": 8
-   },
-   "pick": {
-    "id": 1106,
-    "name": "Tome of Fire (empty) 106",
-    "members": true,
-    "limit": 15,
-    "buy": 1752596,
-    "sell": 1813937,
-    "qty": 8,
-    "qtyLarge": 13,
-    "qtyLimit": 3,
-    "minQty": 1,
-    "maxQty": 2,
-    "tier": "f",
-    "reserveEach": 16174,
-    "expectedEach": 15037.75,
-    "chance": 0.667,
-    "thin": 3,
-    "low": 1752596,
-    "high": 1813937,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 484,
-    "filled": 0,
-    "total": 7292
-   },
-   "pick": {
-    "id": 1107,
-    "name": "Blighted ancient ice sack 107",
-    "members": true,
-    "limit": 15000,
-    "buy": 499,
-    "sell": 529,
-    "qty": 7292,
-    "qtyLarge": 11668,
-    "qtyLimit": 3621,
-    "minQty": 1250,
-    "maxQty": 3621,
-    "tier": "p",
-    "reserveEach": 17,
-    "expectedEach": 12,
-    "chance": 0.654,
-    "thin": 3621,
-    "low": 499,
-    "high": 529,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 499,
-    "qty": 7072,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 499,
-    "filled": 0,
-    "total": 7292
-   },
-   "pick": {
-    "id": 1107,
-    "name": "Blighted ancient ice sack 107",
-    "members": true,
-    "limit": 15000,
-    "buy": 499,
-    "sell": 529,
-    "qty": 7292,
-    "qtyLarge": 11668,
-    "qtyLimit": 3621,
-    "minQty": 1250,
-    "maxQty": 3621,
-    "tier": "p",
-    "reserveEach": 17,
-    "expectedEach": 12,
-    "chance": 0.654,
-    "thin": 3621,
-    "low": 499,
-    "high": 529,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 11312,
-    "filled": 3,
-    "total": 54
-   },
-   "pick": {
-    "id": 1108,
-    "name": "Mort'ton teleport 108",
-    "members": true,
-    "limit": 10000,
-    "buy": 11313,
-    "sell": 11947,
-    "qty": 54,
-    "qtyLarge": 87,
-    "qtyLimit": 59,
-    "minQty": 0,
-    "maxQty": 0,
-    "tier": "p",
-    "reserveEach": 337,
-    "expectedEach": 264,
-    "chance": 0.406,
-    "proven": 4,
-    "thin": 59,
-    "record": {
-     "avgReturn": 0.039531551715917886,
-     "flips": 4
-    },
-    "low": 11313,
-    "high": 11947,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 301,
-    "filled": 0,
-    "total": 36993
-   },
-   "pick": {
-    "id": 1113,
-    "name": "Wrath rune 113",
-    "members": true,
-    "limit": 25000,
-    "buy": 310,
-    "sell": 320,
-    "qty": 36993,
-    "qtyLarge": 36993,
-    "qtyLimit": 45400,
-    "minQty": 6250,
-    "maxQty": 16129,
-    "tier": "f",
-    "reserveEach": 2,
-    "expectedEach": 3,
-    "chance": 0.416,
-    "thin": 36993,
-    "low": 310,
-    "high": 320,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 310,
-    "qty": 35919,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 310,
-    "filled": 0,
-    "total": 36993
-   },
-   "pick": {
-    "id": 1113,
-    "name": "Wrath rune 113",
-    "members": true,
-    "limit": 25000,
-    "buy": 310,
-    "sell": 320,
-    "qty": 36993,
-    "qtyLarge": 36993,
-    "qtyLimit": 45400,
-    "minQty": 6250,
-    "maxQty": 16129,
-    "tier": "f",
-    "reserveEach": 2,
-    "expectedEach": 3,
-    "chance": 0.416,
-    "thin": 36993,
-    "low": 310,
-    "high": 320,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 265894,
-    "filled": 3,
-    "total": 5
-   },
-   "pick": {
-    "id": 1114,
-    "name": "Kraken tentacle 114",
-    "members": true,
-    "limit": 70,
-    "buy": 265895,
-    "sell": 281849,
-    "qty": 5,
-    "qtyLarge": 8,
-    "qtyLimit": 5,
-    "minQty": 3,
-    "maxQty": 5,
-    "tier": "p",
-    "reserveEach": 8936,
-    "expectedEach": 6190.8,
-    "chance": 0.601,
-    "proven": 2,
-    "thin": 5,
-    "record": {
-     "avgReturn": 0.04668697567190975,
-     "flips": 4
-    },
-    "low": 265895,
-    "high": 281849,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  },
-  {
-   "offer": {
-    "price": 265,
-    "filled": 0,
-    "total": 8436
-   },
-   "pick": {
-    "id": 1117,
-    "name": "Steel cannonball 117",
-    "members": true,
-    "limit": 11000,
-    "buy": 273,
-    "sell": 289,
-    "qty": 8436,
-    "qtyLarge": 11000,
-    "qtyLimit": 246627,
-    "minQty": 2273,
-    "maxQty": 11000,
-    "tier": "p",
-    "reserveEach": 9,
-    "expectedEach": 6.6,
-    "chance": 0.461,
-    "thin": 11000,
-    "low": 273,
-    "high": 289,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": {
-    "price": 273,
-    "qty": 8188,
-    "extraGp": 0
-   }
-  },
-  {
-   "offer": {
-    "price": 273,
-    "filled": 0,
-    "total": 8436
-   },
-   "pick": {
-    "id": 1117,
-    "name": "Steel cannonball 117",
-    "members": true,
-    "limit": 11000,
-    "buy": 273,
-    "sell": 289,
-    "qty": 8436,
-    "qtyLarge": 11000,
-    "qtyLimit": 246627,
-    "minQty": 2273,
-    "maxQty": 11000,
-    "tier": "p",
-    "reserveEach": 9,
-    "expectedEach": 6.6,
-    "chance": 0.461,
-    "thin": 11000,
-    "low": 273,
-    "high": 289,
-    "lowAt": 1790357666,
-    "highAt": 1790357636
-   },
-   "stalledMs": 240000,
-   "expected": null
-  }
- ],
  "room": [
   {
    "name": "Blighted ancient ice sack 2 at 9000000, 0.3 of its room planned",
@@ -12220,6 +10940,1124 @@
     "price": 1670411,
     "profitEach": 23079
    }
+  }
+ ],
+ "stop": [
+  {
+   "buy": 10623,
+   "sellNow": 11182,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 10902,
+   "sellNow": 11182,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 10958,
+   "sellNow": 11182,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 11014,
+   "sellNow": 11182,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 11182,
+   "sellNow": 11182,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 11517,
+   "sellNow": 11182,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1892259,
+   "sellNow": 1991852,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1942056,
+   "sellNow": 1991852,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1952015,
+   "sellNow": 1991852,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1961974,
+   "sellNow": 1991852,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1991852,
+   "sellNow": 1991852,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 2051608,
+   "sellNow": 1991852,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 374,
+   "sellNow": 394,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 384,
+   "sellNow": 394,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 386,
+   "sellNow": 394,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 388,
+   "sellNow": 394,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 394,
+   "sellNow": 394,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 406,
+   "sellNow": 394,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 12804,
+   "sellNow": 13478,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 13141,
+   "sellNow": 13478,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 13208,
+   "sellNow": 13478,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 13276,
+   "sellNow": 13478,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 13478,
+   "sellNow": 13478,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 13882,
+   "sellNow": 13478,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 143,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 146,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 147,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 148,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 150,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 155,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1365,
+   "sellNow": 1437,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1401,
+   "sellNow": 1437,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1408,
+   "sellNow": 1437,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1415,
+   "sellNow": 1437,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1437,
+   "sellNow": 1437,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1480,
+   "sellNow": 1437,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 216,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 221,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 222,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 224,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 227,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 234,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 123231,
+   "sellNow": 129717,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 126474,
+   "sellNow": 129717,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 127123,
+   "sellNow": 129717,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 127771,
+   "sellNow": 129717,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 129717,
+   "sellNow": 129717,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 133609,
+   "sellNow": 129717,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 356,
+   "sellNow": 375,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 366,
+   "sellNow": 375,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 368,
+   "sellNow": 375,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 369,
+   "sellNow": 375,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 375,
+   "sellNow": 375,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 386,
+   "sellNow": 375,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 251798,
+   "sellNow": 265051,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 258425,
+   "sellNow": 265051,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 259750,
+   "sellNow": 265051,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 261075,
+   "sellNow": 265051,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 265051,
+   "sellNow": 265051,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 273003,
+   "sellNow": 265051,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1483978,
+   "sellNow": 1562082,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1523030,
+   "sellNow": 1562082,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1530840,
+   "sellNow": 1562082,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1538651,
+   "sellNow": 1562082,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1562082,
+   "sellNow": 1562082,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1608944,
+   "sellNow": 1562082,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 444,
+   "sellNow": 467,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 455,
+   "sellNow": 467,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 458,
+   "sellNow": 467,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 460,
+   "sellNow": 467,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 467,
+   "sellNow": 467,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 481,
+   "sellNow": 467,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 216,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 221,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 222,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 224,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 227,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 234,
+   "sellNow": 227,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1665303,
+   "sellNow": 1752951,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1709127,
+   "sellNow": 1752951,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1717892,
+   "sellNow": 1752951,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1726657,
+   "sellNow": 1752951,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1752951,
+   "sellNow": 1752951,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1805540,
+   "sellNow": 1752951,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1720,
+   "sellNow": 1810,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1765,
+   "sellNow": 1810,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1774,
+   "sellNow": 1810,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1783,
+   "sellNow": 1810,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1810,
+   "sellNow": 1810,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1864,
+   "sellNow": 1810,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 78,
+   "sellNow": 82,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 80,
+   "sellNow": 82,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 80,
+   "sellNow": 82,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 81,
+   "sellNow": 82,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 82,
+   "sellNow": 82,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 84,
+   "sellNow": 82,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 3596545,
+   "sellNow": 3771063,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 3691191,
+   "sellNow": 3771063,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 3710120,
+   "sellNow": 3771063,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 3729049,
+   "sellNow": 3771063,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 3785837,
+   "sellNow": 3771063,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 3899412,
+   "sellNow": 3771063,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1813249,
+   "sellNow": 1908683,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1860966,
+   "sellNow": 1908683,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1870509,
+   "sellNow": 1908683,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1880053,
+   "sellNow": 1908683,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1908683,
+   "sellNow": 1908683,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1965943,
+   "sellNow": 1908683,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1474286,
+   "sellNow": 1551880,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1513083,
+   "sellNow": 1551880,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1520842,
+   "sellNow": 1551880,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1528602,
+   "sellNow": 1551880,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1551880,
+   "sellNow": 1551880,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1598436,
+   "sellNow": 1551880,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 11970488,
+   "sellNow": 12600514,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 12285501,
+   "sellNow": 12600514,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 12348504,
+   "sellNow": 12600514,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 12411506,
+   "sellNow": 12600514,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 12600514,
+   "sellNow": 12600514,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 12978529,
+   "sellNow": 12600514,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 4459464,
+   "sellNow": 4694173,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 4576819,
+   "sellNow": 4694173,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 4600290,
+   "sellNow": 4694173,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 4623760,
+   "sellNow": 4694173,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 4694173,
+   "sellNow": 4694173,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 4834998,
+   "sellNow": 4694173,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 9345,
+   "sellNow": 9837,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 9591,
+   "sellNow": 9837,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 9640,
+   "sellNow": 9837,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 9689,
+   "sellNow": 9837,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 9837,
+   "sellNow": 9837,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 10132,
+   "sellNow": 9837,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1394707,
+   "sellNow": 1468113,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1431410,
+   "sellNow": 1468113,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1438751,
+   "sellNow": 1468113,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1446091,
+   "sellNow": 1468113,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1468113,
+   "sellNow": 1468113,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1512156,
+   "sellNow": 1468113,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 460,
+   "sellNow": 484,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 472,
+   "sellNow": 484,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 474,
+   "sellNow": 484,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 477,
+   "sellNow": 484,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 484,
+   "sellNow": 484,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 499,
+   "sellNow": 484,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 10920,
+   "sellNow": 11495,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 11208,
+   "sellNow": 11495,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 11265,
+   "sellNow": 11495,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 11323,
+   "sellNow": 11495,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 11495,
+   "sellNow": 11495,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 11840,
+   "sellNow": 11495,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 143,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 146,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 147,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 148,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 150,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 155,
+   "sellNow": 150,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1416,
+   "sellNow": 1485,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1454,
+   "sellNow": 1485,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 1461,
+   "sellNow": 1485,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1469,
+   "sellNow": 1485,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1491,
+   "sellNow": 1485,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 1536,
+   "sellNow": 1485,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 276,
+   "sellNow": 290,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 283,
+   "sellNow": 290,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 284,
+   "sellNow": 290,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 286,
+   "sellNow": 290,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 290,
+   "sellNow": 290,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 299,
+   "sellNow": 290,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 161202,
+   "sellNow": 169015,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 165444,
+   "sellNow": 169015,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 166292,
+   "sellNow": 169015,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 167141,
+   "sellNow": 169015,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 169686,
+   "sellNow": 169015,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 174777,
+   "sellNow": 169015,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 296,
+   "sellNow": 312,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 304,
+   "sellNow": 312,
+   "taxFree": false,
+   "expected": false
+  },
+  {
+   "buy": 306,
+   "sellNow": 312,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 307,
+   "sellNow": 312,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 312,
+   "sellNow": 312,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 321,
+   "sellNow": 312,
+   "taxFree": false,
+   "expected": true
+  },
+  {
+   "buy": 10623,
+   "sellNow": 11182,
+   "taxFree": true,
+   "expected": false
+  },
+  {
+   "buy": 10902,
+   "sellNow": 11182,
+   "taxFree": true,
+   "expected": false
+  },
+  {
+   "buy": 10958,
+   "sellNow": 11182,
+   "taxFree": true,
+   "expected": false
+  },
+  {
+   "buy": 11014,
+   "sellNow": 11182,
+   "taxFree": true,
+   "expected": false
+  },
+  {
+   "buy": 11182,
+   "sellNow": 11182,
+   "taxFree": true,
+   "expected": true
+  },
+  {
+   "buy": 11517,
+   "sellNow": 11182,
+   "taxFree": true,
+   "expected": true
   }
  ],
  "tax": [

@@ -1578,6 +1578,15 @@ class Trader
 		return step(kind, title, detail, null, Tone.GREY, -1, null, 0, 0, -1);
 	}
 
+	/** A stop because today's price leaves a buy no profit has a key that starts with this. */
+	static final String PRICE_STOP_KEY = "pricestop:";
+
+	/** A stop the player may overrule ("Keep buying"), unlike a Rebound's, whose day to buy is over. */
+	static boolean isPriceStop(Step step)
+	{
+		return step != null && step.getKey().startsWith(PRICE_STOP_KEY);
+	}
+
 	// --- A Make and Sell swap ---
 
 	/** Steps of a Make and Sell swap have keys that start with this. */
@@ -1844,11 +1853,34 @@ class Trader
 		for (Offer o : offers)
 		{
 			PlanItem item = o == null ? null : planItem(o.itemId);
-			if (item != null && item.reboundAt != null && o.state.equals("BUYING") && o.filled < o.total
-				&& now >= Rebounds.buyEndsAt(item.reboundAt, o.startedAt))
+			if (item == null || !o.state.equals("BUYING") || o.filled >= o.total)
 			{
-				steps.add(step(Kind.STOP, Rebounds.buyOverTitle(item.name), Rebounds.buyOver(o.filled),
-					"Your buy in GE slot " + (o.slot + 1), Tone.AMBER, item.id, item.name, o.total - o.filled, 0, o.slot));
+				continue;
+			}
+			if (item.reboundAt != null)
+			{
+				if (now >= Rebounds.buyEndsAt(item.reboundAt, o.startedAt))
+				{
+					steps.add(step(Kind.STOP, Rebounds.buyOverTitle(item.name), Rebounds.buyOver(o.filled),
+						"Your buy in GE slot " + (o.slot + 1), Tone.AMBER, item.id, item.name, o.total - o.filled, 0, o.slot));
+				}
+				continue;
+			}
+			if (Boolean.TRUE.equals(item.rebound))
+			{
+				// A dump added by hand aims for the price before the drop, not today's.
+				continue;
+			}
+			// The website's "Stop adding to this trade": today's sale price, the one a stalled sale is lowered to.
+			PlanFeed.Pick pick = byId.get(item.id);
+			long sellNow = pick != null && fresh ? pick.sell : prices.applyAsLong(item.id);
+			if (TraderRules.stopBuy(o.price, sellNow, taxFree(byId, item.id)))
+			{
+				// One key per offer, so "Keep buying" holds while it fills and never carries to a later buy.
+				steps.add(new Step(Kind.STOP, Rebounds.buyOverTitle(item.name), TraderRules.stopBuyWhy(o.filled),
+					"Your buy in GE slot " + (o.slot + 1), Tone.AMBER, item.id, item.name, o.total - o.filled, 0, o.slot,
+					PRICE_STOP_KEY + item.id + ":" + o.slot + ":" + o.price + ":" + (o.startedAt == null ? 0 : o.startedAt),
+					null));
 			}
 		}
 		int free = freeGeSlot();

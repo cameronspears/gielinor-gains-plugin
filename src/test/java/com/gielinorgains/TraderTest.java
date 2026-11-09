@@ -394,6 +394,117 @@ public class TraderTest
 		assertEquals(275, lower.getPrice());
 	}
 
+	/** A trader with a 1,000 Steel cannonball buy in at 259 each, planned to sell at 280. */
+	private static Trader buying(PlanFeed.Feed feed, long filled)
+	{
+		Trader trader = ready(1_000_000);
+		trader.refill(feed, T0);
+		trader.onOffer(0, 2, "BUYING", filled, 1000, 259, filled * 259, T0 + 1000, true);
+		return trader;
+	}
+
+	/** Whether the cannonball buy's step is a stop, when the price check answers `sellNow` (0: no answer). */
+	private static boolean stops(Trader trader, PlanFeed.Feed feed, long now, long sellNow)
+	{
+		Trader.Step step = trader.stepFor(feed, now, id -> sellNow, 2);
+		return step != null && step.getKind() == Trader.Kind.STOP;
+	}
+
+	@Test
+	public void stopsABuyOnceTodaysPriceLeavesNoProfit()
+	{
+		PlanFeed.Feed feed = feed(pick(2, "Steel cannonball", 259, 280, 1000));
+		Trader trader = buying(feed, 0);
+		assertEquals(Trader.Kind.WAIT, next(trader, feed, T0 + 2000).getKind());
+
+		// 265 less 5 tax still makes 1 GP each; 264 less 5 tax makes nothing.
+		feed.picks.get(0).sell = 265;
+		assertEquals(Trader.Kind.WAIT, next(trader, feed, T0 + 3000).getKind());
+		feed.picks.get(0).sell = 264;
+		Trader.Step stop = next(trader, feed, T0 + 4000);
+		assertEquals(Trader.Kind.STOP, stop.getKind());
+		assertTrue(Trader.isPriceStop(stop));
+		assertEquals("Stop the rest of your Steel cannonball buy", stop.getTitle());
+		assertEquals("At today's price, this buy no longer makes a profit after tax. Cancel the offer and collect your GP.",
+			stop.getDetail());
+		assertEquals("Your buy in GE slot 1", stop.getStatus());
+		assertEquals("Cancel the rest?", trader.badge(0, T0 + 4000, stop).getText());
+
+		// The price came back: the buy carries on.
+		feed.picks.get(0).sell = 280;
+		assertEquals(Trader.Kind.WAIT, next(trader, feed, T0 + 5000).getKind());
+	}
+
+	@Test
+	public void aStoppedBuyKeepsWhatItBoughtAndSellsAtThePlansPrice()
+	{
+		PlanFeed.Feed feed = feed(pick(2, "Steel cannonball", 259, 280, 1000));
+		Trader trader = buying(feed, 400);
+		feed.picks.get(0).sell = 260;
+		Trader.Step stop = next(trader, feed, T0 + 2000);
+		assertEquals(Trader.Kind.STOP, stop.getKind());
+		assertEquals(600, stop.getQty());
+		assertTrue(stop.getDetail(), stop.getDetail().endsWith("Cancel the rest of the offer. You keep the 400 you bought,"
+			+ " and we'll help you sell them."));
+
+		trader.onOffer(0, 2, "CANCELLED_BUY", 400, 1000, 259, 400 * 259, T0 + 3000, true);
+		trader.onOffer(0, 2, "EMPTY", 0, 0, 0, 0, T0 + 4000, true);
+		Trader.Step sell = trader.stepFor(feed, T0 + 5000, id -> 0, 2);
+		assertEquals(Trader.Kind.SELL, sell.getKind());
+		assertEquals(400, sell.getQty());
+		assertEquals(280, sell.getPrice());
+	}
+
+	@Test
+	public void keepBuyingHoldsForThatOfferOnly()
+	{
+		PlanFeed.Feed feed = feed(pick(2, "Steel cannonball", 259, 280, 1000));
+		Trader trader = buying(feed, 0);
+		feed.picks.get(0).sell = 260;
+		Trader.Step stop = next(trader, feed, T0 + 2000);
+		trader.dismiss(stop.getKey());
+		assertEquals(Trader.Kind.WAIT, next(trader, feed, T0 + 3000).getKind());
+		trader.onOffer(0, 2, "BUYING", 300, 1000, 259, 300 * 259, T0 + 4000, true);
+		assertEquals(Trader.Kind.WAIT, next(trader, feed, T0 + 5000).getKind());
+
+		// A new buy of the same item, at the same price in the same slot, is asked about again.
+		trader.onOffer(0, 2, "CANCELLED_BUY", 300, 1000, 259, 300 * 259, T0 + 6000, true);
+		trader.onOffer(0, 2, "EMPTY", 0, 0, 0, 0, T0 + 7000, true);
+		trader.onOffer(0, 2, "BUYING", 0, 700, 259, 0, T0 + 8000, true);
+		Trader.Step again = trader.stepFor(feed, T0 + 9000, id -> 0, 2);
+		assertEquals(Trader.Kind.STOP, again.getKind());
+		assertFalse(again.getKey().equals(stop.getKey()));
+	}
+
+	@Test
+	public void neverStopsABuyOnAPriceItCantVouchFor()
+	{
+		PlanFeed.Feed feed = feed(pick(2, "Steel cannonball", 259, 280, 1000));
+		Trader trader = buying(feed, 0);
+		feed.picks.get(0).sell = 260;
+
+		// The plan feed is old: its price isn't today's, and the price check has no answer yet.
+		long late = feed.staleAt + 1000;
+		assertFalse(stops(trader, feed, late, 0));
+		assertTrue(stops(trader, feed, late, 260));
+		assertFalse(stops(trader, feed, late, 270));
+
+		// The item left the picks: the price check's answer decides.
+		PlanFeed.Feed gone = feed(pick(453, "Coal", 150, 165, 2000));
+		assertFalse(stops(trader, gone, T0 + 2000, 0));
+		assertTrue(stops(trader, gone, T0 + 2000, 264));
+	}
+
+	@Test
+	public void aDumpAddedByHandIsNeverStoppedOnPrice()
+	{
+		Trader trader = ready(1_000_000);
+		assertTrue(trader.add(2, "Steel cannonball", 1000, 259, 320, true, T0));
+		trader.onOffer(0, 2, "BUYING", 0, 1000, 259, 0, T0 + 1000, true);
+		PlanFeed.Feed feed = feed(pick(2, "Steel cannonball", 240, 250, 1000));
+		assertFalse(stops(trader, feed, T0 + 2000, 250));
+	}
+
 	@Test
 	public void skipForNowFreesTheSlotAndNeverPicksItAgain()
 	{

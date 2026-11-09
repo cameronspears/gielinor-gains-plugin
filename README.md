@@ -58,7 +58,9 @@ Each slot shows its next step and its expected profit after the 2% tax. When a s
 picks the next trade. **Up next** shows what that will be. **Today so far** adds up your profit.
 
 If the game shows something else, use **Already done** or **Skip for now**. If a sale hasn't moved
-for 8 hours, Trader suggests a lower price. It guides you through Modify to change it.
+for 8 hours, Trader suggests a lower price. It guides you through Modify to change it. If the price
+drops while you buy and no profit is left, Trader tells you to cancel the rest. You can **Keep
+buying** if you'd rather wait.
 
 A **Rebound** is an item that just dropped in price and fits our tested plan. When one is fresh, it
 shows above your slots. Click **Add to plan** to trade it, or **Not now**.

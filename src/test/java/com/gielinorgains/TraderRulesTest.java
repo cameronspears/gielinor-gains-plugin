@@ -157,6 +157,22 @@ public class TraderRulesTest
 	}
 
 	@Test
+	public void stopsABuyWhenTraderDoes() throws Exception
+	{
+		int stops = 0;
+		for (JsonElement element : cases().getAsJsonArray("stop"))
+		{
+			JsonObject c = element.getAsJsonObject();
+			boolean expected = c.get("expected").getAsBoolean();
+			assertEquals(c.toString(), expected, TraderRules.stopBuy(c.get("buy").getAsLong(), c.get("sellNow").getAsLong(),
+				c.get("taxFree").getAsBoolean()));
+			stops += expected ? 1 : 0;
+		}
+		assertTrue(stops > 20);
+		assertFalse(TraderRules.stopBuy(100, 0, false));
+	}
+
+	@Test
 	public void chargesTheWebsitesTax() throws Exception
 	{
 		for (JsonElement element : cases().getAsJsonArray("tax"))

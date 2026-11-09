@@ -641,6 +641,11 @@ class TraderController
 				{
 					heldPrices.put(itemId, r.body.sell);
 				}
+				else if (r.body != null)
+				{
+					// The site can't vouch for today's price: an old one must not lower a sale or stop a buy.
+					heldPrices.remove(itemId);
+				}
 			}));
 		}
 		return price == null ? 0 : price;

@@ -77,6 +77,16 @@ public class SidebarPreviewTest
 		drawScrolled(out, "sidebar-trade-scrolled", sidebar(scrolled, new ProgressPanel(), false), 90);
 		trade(out, "offline", view(true, null, null, true, buy, trader.slots(now), null, today, 10_000_000L, false, null, true));
 
+		// Today's price fell while a buy was filling: the stop, and the way to overrule it.
+		Trader stopping = ready(10_000_000);
+		PlanFeed.Feed fallen = feed(pick(2, "Steel cannonball", 259, 280, 1000));
+		stopping.refill(fallen, T0 + 1000);
+		stopping.onOffer(0, 2, "BUYING", 400, 1000, 259, 103_600, T0 + 5000, true);
+		fallen.picks.get(0).sell = 262;
+		Trader.Step stop = next(stopping, fallen, T0 + 60_000);
+		trade(out, "price-stop", view(true, null, null, false, stop, stopping.slots(T0 + 60_000), null, today, 10_000_000L,
+			false, null, true));
+
 		// Buy, collect and sell the cannonballs, for a sell step and then a finished flip.
 		trader.onOffer(0, 2, "BUYING", 0, 1000, 259, 0, T0 + 5000, true);
 		trader.onOffer(0, 2, "BOUGHT", 1000, 1000, 259, 259_000, T0 + 60_000, true);

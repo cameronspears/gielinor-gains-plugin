@@ -456,7 +456,8 @@ class TradePanel extends JPanel
 	private Ui.Card next(Trader.Step step, Trader.Moment moment)
 	{
 		Trader.Kind kind = step.getKind();
-		boolean amber = kind == Trader.Kind.STALE || kind == Trader.Kind.LOWER;
+		boolean priceStop = Trader.isPriceStop(step);
+		boolean amber = kind == Trader.Kind.STALE || kind == Trader.Kind.LOWER || priceStop;
 		Ui.Card card = amber ? new Ui.Card(Brand.AMBER, Ui.AMBER_EDGE) : new Ui.Card(Brand.BLUE, Ui.BLUE_EDGE);
 		boolean justBought = moment != null && !moment.isSale() && moment.getItemId() == step.getItemId();
 		if (justBought)
@@ -467,13 +468,13 @@ class TradePanel extends JPanel
 		}
 		else
 		{
-			card.add(Ui.eyebrow(kind == Trader.Kind.LOWER ? "Price check" : "Next step"));
+			card.add(Ui.eyebrow(kind == Trader.Kind.LOWER || priceStop ? "Price check" : "Next step"));
 		}
 		card.add(Ui.gap(4));
 		card.add(step.getItemId() > 0 ? new ItemTitle(step.getItemId(), step.getTitle()) : Ui.title(step.getTitle()));
 		if (step.getDetail() != null)
 		{
-			card.add(Ui.text(step.getDetail(), kind == Trader.Kind.LOWER ? Brand.TEXT : Brand.MUTED));
+			card.add(Ui.text(step.getDetail(), kind == Trader.Kind.LOWER || priceStop ? Brand.TEXT : Brand.MUTED));
 		}
 		if (step.getStatus() != null)
 		{
@@ -510,6 +511,14 @@ class TradePanel extends JPanel
 			case LOWER:
 				card.add(Ui.gap(Ui.GAP));
 				card.add(Ui.links(done, new Ui.Link("Keep my current price", Brand.MUTED, () -> actions.dismiss(key))));
+				break;
+			case STOP:
+				// A Rebound's day to buy is over either way; a price check is the player's call.
+				if (priceStop)
+				{
+					card.add(Ui.gap(Ui.GAP));
+					card.add(Ui.links(new Ui.Link("Keep buying", Brand.MUTED, () -> actions.dismiss(key))));
+				}
 				break;
 			case EMPTY:
 				// Nothing fits: the one thing that changes that is the budget.

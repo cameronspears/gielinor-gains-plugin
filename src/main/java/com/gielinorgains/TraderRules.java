@@ -75,6 +75,24 @@ final class TraderRules
 		return sell - tax(sell, taxFree) - buy;
 	}
 
+	/**
+	 * Whether to stop adding to a buy (the website's "Stop adding to this trade"): at today's sale price the
+	 * buy price leaves no profit after tax. False while today's price isn't known.
+	 */
+	static boolean stopBuy(long buyPrice, long sellNow, boolean taxFree)
+	{
+		return buyPrice > 0 && sellNow > 0 && profitEach(sellNow, buyPrice, taxFree) <= 0;
+	}
+
+	static String stopBuyWhy(long filled)
+	{
+		String why = "At today's price, this buy no longer makes a profit after tax. ";
+		return filled > 0
+			? why + "Cancel the rest of the offer. You keep the " + BoxText.whole(filled)
+			+ " you bought, and we'll help you sell them."
+			: why + "Cancel the offer and collect your GP.";
+	}
+
 	/** Profit after tax if the sale lands half a percent (at least 1 GP) lower. */
 	static long reserveProfit(long buy, long sell, boolean taxFree)
 	{
