@@ -36,8 +36,8 @@ Open the Trade tab. It shows a short code.
 2. Sign in, type the code, and click **Link RuneLite**.
 3. Go back to RuneLite. The Trade tab signs in by itself.
 
-Your password never goes into RuneLite. To sign out, click **Unlink** on the Settings tab. Unlink on
-your Account page on the website signs out every RuneLite at once.
+Your password never goes into RuneLite. To sign out, click **Unlink** on the Settings tab. On the website,
+**Unlink** in Settings, under Linked apps, signs out every RuneLite at once.
 
 ![Signing in with a code](docs/images/sign-in.png)
 
@@ -62,8 +62,8 @@ for 8 hours, Trader suggests a lower price. It guides you through Modify to chan
 drops while you buy and no profit is left, Trader tells you to cancel the rest. You can **Keep
 buying** if you'd rather wait.
 
-A **Rebound** is an item that just dropped in price and fits our tested plan. When one is fresh, it
-shows above your slots. Click **Add to plan** to trade it, or **Not now**.
+A **Rebound** is a sudden price drop that looks like the ones that bounced back in our tests. When
+one is fresh, it shows above your slots. Click **Add to plan** to trade it, or **Not now**.
 
 ## Market
 
