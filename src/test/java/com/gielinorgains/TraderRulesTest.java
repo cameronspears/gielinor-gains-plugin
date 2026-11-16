@@ -44,6 +44,27 @@ public class TraderRulesTest
 		}.getType());
 	}
 
+	/** "1002x629 for +1,234": the website's pick, its size, and the profit Trader shows for it. */
+	private static String chosen(JsonObject c)
+	{
+		if (c.get("expected").isJsonNull())
+		{
+			return "none";
+		}
+		JsonObject e = c.getAsJsonObject("expected");
+		return e.get("id").getAsInt() + "x" + e.get("qty").getAsLong() + " for +" + e.get("profit").getAsLong();
+	}
+
+	private static String chosen(TraderRules.Fill fill, List<PlanFeed.Pick> picks)
+	{
+		if (fill == null)
+		{
+			return "none";
+		}
+		PlanFeed.Pick pick = picks.stream().filter(p -> p.id == fill.getId()).findFirst().get();
+		return fill.getId() + "x" + fill.getQty() + " for +" + TraderRules.expected(pick, fill.getQty());
+	}
+
 	@Test
 	public void choosesWhatTraderChooses() throws Exception
 	{
@@ -61,12 +82,31 @@ public class TraderRulesTest
 			TraderRules.Fill fill = TraderRules.choose(picks(c.get("picks")),
 				TraderRules.pickBudget(c.get("budget").getAsLong(), planningGp, pickShare()), planningGp, new HashSet<>(),
 				p -> p.limit - bought.getOrDefault(p.id, 0), true, TraderRules.Room.NONE);
-			String expected = c.get("expected").isJsonNull() ? "none"
-				: c.getAsJsonObject("expected").get("id").getAsInt() + "x" + c.getAsJsonObject("expected").get("qty").getAsLong();
-			assertEquals(c.get("name").getAsString(), expected, fill == null ? "none" : fill.getId() + "x" + fill.getQty());
+			assertEquals(c.get("name").getAsString(), chosen(c), chosen(fill, picks(c.get("picks"))));
 			chosen += fill == null ? 0 : 1;
 		}
 		assertTrue(chosen > 20);
+	}
+
+	/** Up next shows the website's figure for the size the plugin would buy, not the Market's size. */
+	@Test
+	public void upNextShowsTradersProfitAtTheSizeItBuys() throws Exception
+	{
+		for (JsonElement element : cases().getAsJsonArray("selection"))
+		{
+			JsonObject c = element.getAsJsonObject();
+			if (c.get("name").getAsString().equals("Mud rune 15 at 300000 of 300000"))
+			{
+				PlanFeed.Feed feed = TraderTest.feed(picks(c.get("picks")).toArray(new PlanFeed.Pick[0]));
+				feed.pickShare = pickShare();
+				List<TradePanel.UpNext> next = TraderTest.ready(c.get("budget").getAsLong()).upNext(feed, TraderTest.T0 + 1000, 2);
+				// Bought 759 of the Market's 5,092: the Market's +6,110 would be five times too much.
+				assertEquals(1, next.size());
+				assertEquals(c.getAsJsonObject("expected").get("profit").getAsLong(), next.get(0).getExpected());
+				return;
+			}
+		}
+		throw new AssertionError("Case not in the fixture");
 	}
 
 	@Test
@@ -88,9 +128,7 @@ public class TraderRulesTest
 			long planningGp = c.get("planningGp").getAsLong();
 			TraderRules.Fill fill = TraderRules.choose(picks, TraderRules.pickBudget(c.get("budget").getAsLong(), planningGp,
 				pickShare()), planningGp, new HashSet<>(), p -> p.limit, true, TraderRules.room(picks, room, own, now));
-			String expected = c.get("expected").isJsonNull() ? "none"
-				: c.getAsJsonObject("expected").get("id").getAsInt() + "x" + c.getAsJsonObject("expected").get("qty").getAsLong();
-			assertEquals(c.get("name").getAsString(), expected, fill == null ? "none" : fill.getId() + "x" + fill.getQty());
+			assertEquals(c.get("name").getAsString(), chosen(c), chosen(fill, picks(c.get("picks"))));
 			chosen += fill == null ? 0 : 1;
 			none += fill == null ? 1 : 0;
 		}

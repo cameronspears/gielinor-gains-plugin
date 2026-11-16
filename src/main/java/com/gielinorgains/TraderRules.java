@@ -93,6 +93,34 @@ final class TraderRules
 			: why + "Cancel the offer and collect your GP.";
 	}
 
+	/**
+	 * Expected profit for buying {@code qty} of a pick, as the website's Trader shows it: the
+	 * site's expected-profit model (utils/trading/expectedOutcome.ts, pickExpected in rules.ts)
+	 * worked out at this size, since it doesn't grow in step with quantity. A site from before
+	 * {@code volume} only sends the Market's figure per unit.
+	 */
+	static long expected(PlanFeed.Pick p, long qty)
+	{
+		long unitProfit = profitEach(p.sell, p.buy, p.isTaxFree());
+		if (p.volume == null || unitProfit <= 0 || qty <= 0 || p.buy <= 0)
+		{
+			return Math.round(p.expectedEach * qty);
+		}
+		double buy = p.buy;
+		double margin = (double) unitProfit / buy;
+		double hours = p.hoursEach == null ? 24 : p.hoursEach * qty;
+		// The site's fitted factor, term by term in its order so the figure matches to the coin.
+		double factor = 1.980024
+			+ -0.193279 * Math.log10(Math.max(1_000, buy * qty))
+			+ -0.120917 * Math.log10(Math.min(24, Math.max(0.05, hours > 0 ? hours : 24)))
+			+ -0.027242 * Math.log10(Math.max(1, p.volume))
+			+ -1.173707 * Math.min(0.2, Math.max(0, margin))
+			+ (margin < 0.01 ? -0.003528 : 0)
+			+ -0.065367 * Math.log10(buy);
+		double all = (double) unitProfit * qty;
+		return Math.round(Math.min(all, all * factor));
+	}
+
 	/** Profit after tax if the sale lands half a percent (at least 1 GP) lower. */
 	static long reserveProfit(long buy, long sell, boolean taxFree)
 	{

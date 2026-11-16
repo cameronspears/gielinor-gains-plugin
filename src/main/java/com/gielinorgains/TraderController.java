@@ -1161,15 +1161,7 @@ class TraderController
 	/** The next two picks a free slot would get. */
 	private List<TradePanel.UpNext> upNext(boolean signedIn, long now)
 	{
-		List<TradePanel.UpNext> list = new ArrayList<>();
-		if (signedIn)
-		{
-			for (PlanFeed.Pick pick : trader.upNext(planFeed(), now, 2))
-			{
-				list.add(new TradePanel.UpNext(pick.id, pick.name, Math.round(pick.expectedEach * pick.qty)));
-			}
-		}
-		return list;
+		return signedIn ? trader.upNext(planFeed(), now, 2) : Collections.emptyList();
 	}
 
 	/** How old the prices are, from the plan feed while signed in, else the Market's; null when unknown. */
