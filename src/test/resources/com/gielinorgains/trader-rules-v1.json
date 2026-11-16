@@ -102,6 +102,8 @@
      "reserveEach": 4,
      "expectedEach": 3.6,
      "chance": 0.73,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "proven": 1,
      "thin": 11634,
      "record": {
@@ -116,7 +118,8 @@
    ],
    "expected": {
     "id": 1002,
-    "qty": 629
+    "qty": 629,
+    "profit": 2520
    }
   },
   {
@@ -141,6 +144,8 @@
      "reserveEach": 4,
      "expectedEach": 3.6,
      "chance": 0.73,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "proven": 1,
      "thin": 11634,
      "record": {
@@ -155,7 +160,8 @@
    ],
    "expected": {
     "id": 1002,
-    "qty": 4724
+    "qty": 4724,
+    "profit": 11127
    }
   },
   {
@@ -180,6 +186,8 @@
      "reserveEach": 4,
      "expectedEach": 3.6,
      "chance": 0.73,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "proven": 1,
      "thin": 11634,
      "record": {
@@ -194,7 +202,8 @@
    ],
    "expected": {
     "id": 1002,
-    "qty": 11634
+    "qty": 11634,
+    "profit": 18819
    }
   },
   {
@@ -541,6 +550,8 @@
      "reserveEach": 55576,
      "expectedEach": 38499,
      "chance": 0.586,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1653727,
      "high": 1752951,
@@ -572,6 +583,8 @@
      "reserveEach": 55576,
      "expectedEach": 38499,
      "chance": 0.586,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1653727,
      "high": 1752951,
@@ -581,7 +594,8 @@
    ],
    "expected": {
     "id": 1013,
-    "qty": 4
+    "qty": 4,
+    "profit": 26669
    }
   },
   {
@@ -606,6 +620,8 @@
      "reserveEach": 55576,
      "expectedEach": 38499,
      "chance": 0.586,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1653727,
      "high": 1752951,
@@ -615,7 +631,8 @@
    ],
    "expected": {
     "id": 1013,
-    "qty": 8
+    "qty": 8,
+    "profit": 4787
    }
   },
   {
@@ -664,6 +681,8 @@
      "reserveEach": 1,
      "expectedEach": 1.2,
      "chance": 0.877,
+     "volume": 1066149,
+     "hoursEach": 0.0003851996824577142,
      "proven": 9,
      "thin": 8148,
      "record": {
@@ -678,7 +697,8 @@
    ],
    "expected": {
     "id": 1015,
-    "qty": 759
+    "qty": 759,
+    "profit": 1219
    }
   },
   {
@@ -703,6 +723,8 @@
      "reserveEach": 1,
      "expectedEach": 1.2,
      "chance": 0.877,
+     "volume": 1066149,
+     "hoursEach": 0.0003851996824577142,
      "proven": 9,
      "thin": 8148,
      "record": {
@@ -717,7 +739,8 @@
    ],
    "expected": {
     "id": 1015,
-    "qty": 5092
+    "qty": 5092,
+    "profit": 5534
    }
   },
   {
@@ -742,6 +765,8 @@
      "reserveEach": 1,
      "expectedEach": 1.2,
      "chance": 0.877,
+     "volume": 1066149,
+     "hoursEach": 0.0003851996824577142,
      "proven": 9,
      "thin": 8148,
      "record": {
@@ -756,7 +781,8 @@
    ],
    "expected": {
     "id": 1015,
-    "qty": 5092
+    "qty": 5092,
+    "profit": 5534
    }
   },
   {
@@ -781,6 +807,8 @@
      "reserveEach": 1,
      "expectedEach": 1.2,
      "chance": 0.877,
+     "volume": 1066149,
+     "hoursEach": 0.0003851996824577142,
      "proven": 9,
      "thin": 8148,
      "record": {
@@ -795,7 +823,8 @@
    ],
    "expected": {
     "id": 1015,
-    "qty": 8148
+    "qty": 8148,
+    "profit": 7811
    }
   },
   {
@@ -1034,6 +1063,8 @@
      "reserveEach": 15,
      "expectedEach": 10.8,
      "chance": 0.522,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8125,
      "low": 457,
      "high": 484,
@@ -1065,6 +1096,8 @@
      "reserveEach": 15,
      "expectedEach": 10.8,
      "chance": 0.522,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8125,
      "low": 457,
      "high": 484,
@@ -1074,7 +1107,8 @@
    ],
    "expected": {
     "id": 1023,
-    "qty": 3938
+    "qty": 3938,
+    "profit": 26173
    }
   },
   {
@@ -1099,6 +1133,8 @@
      "reserveEach": 15,
      "expectedEach": 10.8,
      "chance": 0.522,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8125,
      "low": 457,
      "high": 484,
@@ -1108,7 +1144,8 @@
    ],
    "expected": {
     "id": 1023,
-    "qty": 8125
+    "qty": 8125,
+    "profit": 39548
    }
   },
   {
@@ -1233,6 +1270,8 @@
      "reserveEach": 3,
      "expectedEach": 3,
      "chance": 0.608,
+     "volume": 10850949,
+     "hoursEach": 0.00007855689970962021,
      "thin": 16579,
      "low": 280,
      "high": 290,
@@ -1264,6 +1303,8 @@
      "reserveEach": 3,
      "expectedEach": 3,
      "chance": 0.608,
+     "volume": 10850949,
+     "hoursEach": 0.00007855689970962021,
      "thin": 16579,
      "low": 280,
      "high": 290,
@@ -1273,7 +1314,8 @@
    ],
    "expected": {
     "id": 1027,
-    "qty": 5714
+    "qty": 5714,
+    "profit": 12867
    }
   },
   {
@@ -1298,6 +1340,8 @@
      "reserveEach": 3,
      "expectedEach": 3,
      "chance": 0.608,
+     "volume": 10850949,
+     "hoursEach": 0.00007855689970962021,
      "thin": 16579,
      "low": 280,
      "high": 290,
@@ -1307,7 +1351,8 @@
    ],
    "expected": {
     "id": 1027,
-    "qty": 13000
+    "qty": 13000,
+    "profit": 21984
    }
   },
   {
@@ -1332,6 +1377,8 @@
      "reserveEach": 3,
      "expectedEach": 3,
      "chance": 0.608,
+     "volume": 10850949,
+     "hoursEach": 0.00007855689970962021,
      "thin": 16579,
      "low": 280,
      "high": 290,
@@ -1341,7 +1388,8 @@
    ],
    "expected": {
     "id": 1027,
-    "qty": 13000
+    "qty": 13000,
+    "profit": 21984
    }
   },
   {
@@ -1429,6 +1477,8 @@
      "reserveEach": 8611,
      "expectedEach": 5965.67,
      "chance": 0.838,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "thin": 5,
      "low": 256250,
      "high": 271625,
@@ -1460,6 +1510,8 @@
      "reserveEach": 8611,
      "expectedEach": 5965.67,
      "chance": 0.838,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "thin": 5,
      "low": 256250,
      "high": 271625,
@@ -1469,7 +1521,8 @@
    ],
    "expected": {
     "id": 1030,
-    "qty": 3
+    "qty": 3,
+    "profit": 10555
    }
   },
   {
@@ -1494,6 +1547,8 @@
      "reserveEach": 8611,
      "expectedEach": 5965.67,
      "chance": 0.838,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "thin": 5,
      "low": 256250,
      "high": 271625,
@@ -1503,7 +1558,8 @@
    ],
    "expected": {
     "id": 1030,
-    "qty": 3
+    "qty": 3,
+    "profit": 10555
    }
   },
   {
@@ -1528,6 +1584,8 @@
      "reserveEach": 8611,
      "expectedEach": 5965.67,
      "chance": 0.838,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "thin": 5,
      "low": 256250,
      "high": 271625,
@@ -1537,7 +1595,8 @@
    ],
    "expected": {
     "id": 1030,
-    "qty": 5
+    "qty": 5,
+    "profit": 14126
    }
   },
   {
@@ -1625,6 +1684,8 @@
      "reserveEach": 8,
      "expectedEach": 6,
      "chance": 0.586,
+     "volume": 16811325,
+     "hoursEach": 0.000029389434672785178,
      "thin": 15368,
      "low": 227,
      "high": 241,
@@ -1656,6 +1717,8 @@
      "reserveEach": 8,
      "expectedEach": 6,
      "chance": 0.586,
+     "volume": 16811325,
+     "hoursEach": 0.000029389434672785178,
      "thin": 15368,
      "low": 227,
      "high": 241,
@@ -1665,7 +1728,8 @@
    ],
    "expected": {
     "id": 1033,
-    "qty": 7048
+    "qty": 7048,
+    "profit": 32493
    }
   },
   {
@@ -1690,6 +1754,8 @@
      "reserveEach": 8,
      "expectedEach": 6,
      "chance": 0.586,
+     "volume": 16811325,
+     "hoursEach": 0.000029389434672785178,
      "thin": 15368,
      "low": 227,
      "high": 241,
@@ -1699,7 +1765,8 @@
    ],
    "expected": {
     "id": 1033,
-    "qty": 11000
+    "qty": 11000,
+    "profit": 44031
    }
   },
   {
@@ -1724,6 +1791,8 @@
      "reserveEach": 8,
      "expectedEach": 6,
      "chance": 0.586,
+     "volume": 16811325,
+     "hoursEach": 0.000029389434672785178,
      "thin": 15368,
      "low": 227,
      "high": 241,
@@ -1733,7 +1802,8 @@
    ],
    "expected": {
     "id": 1033,
-    "qty": 11000
+    "qty": 11000,
+    "profit": 44031
    }
   },
   {
@@ -1782,6 +1852,8 @@
      "reserveEach": 48,
      "expectedEach": 33,
      "chance": 0.484,
+     "volume": 315064,
+     "hoursEach": 0.0020994619247043933,
      "thin": 1562,
      "low": 1420,
      "high": 1505,
@@ -1813,6 +1885,8 @@
      "reserveEach": 48,
      "expectedEach": 33,
      "chance": 0.484,
+     "volume": 315064,
+     "hoursEach": 0.0020994619247043933,
      "thin": 1562,
      "low": 1420,
      "high": 1505,
@@ -1822,7 +1896,8 @@
    ],
    "expected": {
     "id": 1035,
-    "qty": 976
+    "qty": 976,
+    "profit": 19002
    }
   },
   {
@@ -1847,6 +1922,8 @@
      "reserveEach": 48,
      "expectedEach": 33,
      "chance": 0.484,
+     "volume": 315064,
+     "hoursEach": 0.0020994619247043933,
      "thin": 1562,
      "low": 1420,
      "high": 1505,
@@ -1856,7 +1933,8 @@
    ],
    "expected": {
     "id": 1035,
-    "qty": 1562
+    "qty": 1562,
+    "profit": 24898
    }
   },
   {
@@ -2203,6 +2281,8 @@
      "reserveEach": 6,
      "expectedEach": 4.8,
      "chance": 0.681,
+     "volume": 30640471,
+     "hoursEach": 0.000016767046554160087,
      "thin": 30000,
      "low": 195,
      "high": 207,
@@ -2234,6 +2314,8 @@
      "reserveEach": 6,
      "expectedEach": 4.8,
      "chance": 0.681,
+     "volume": 30640471,
+     "hoursEach": 0.000016767046554160087,
      "thin": 30000,
      "low": 195,
      "high": 207,
@@ -2243,7 +2325,8 @@
    ],
    "expected": {
     "id": 1046,
-    "qty": 24012
+    "qty": 24012,
+    "profit": 64689
    }
   },
   {
@@ -2268,6 +2351,8 @@
      "reserveEach": 6,
      "expectedEach": 4.8,
      "chance": 0.681,
+     "volume": 30640471,
+     "hoursEach": 0.000016767046554160087,
      "thin": 30000,
      "low": 195,
      "high": 207,
@@ -2277,7 +2362,8 @@
    ],
    "expected": {
     "id": 1046,
-    "qty": 30000
+    "qty": 30000,
+    "profit": 73529
    }
   },
   {
@@ -2553,6 +2639,8 @@
      "reserveEach": 63820,
      "expectedEach": 44210.5,
      "chance": 0.512,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 0,
      "thin": 4,
      "record": {
@@ -2589,6 +2677,8 @@
      "reserveEach": 63820,
      "expectedEach": 44210.5,
      "chance": 0.512,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 0,
      "thin": 4,
      "record": {
@@ -2603,7 +2693,8 @@
    ],
    "expected": {
     "id": 1055,
-    "qty": 2
+    "qty": 2,
+    "profit": 26961
    }
   },
   {
@@ -2628,6 +2719,8 @@
      "reserveEach": 63820,
      "expectedEach": 44210.5,
      "chance": 0.512,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 0,
      "thin": 4,
      "record": {
@@ -2642,7 +2735,8 @@
    ],
    "expected": {
     "id": 1055,
-    "qty": 4
+    "qty": 4,
+    "profit": 26045
    }
   },
   {
@@ -2886,6 +2980,8 @@
      "reserveEach": 387,
      "expectedEach": 268.79,
      "chance": 0.577,
+     "volume": 72981,
+     "hoursEach": 0.00295918103726274,
      "thin": 93,
      "low": 11530,
      "high": 12222,
@@ -2917,6 +3013,8 @@
      "reserveEach": 387,
      "expectedEach": 268.79,
      "chance": 0.577,
+     "volume": 72981,
+     "hoursEach": 0.00295918103726274,
      "thin": 93,
      "low": 11530,
      "high": 12222,
@@ -2926,7 +3024,8 @@
    ],
    "expected": {
     "id": 1063,
-    "qty": 58
+    "qty": 58,
+    "profit": 13072
    }
   },
   {
@@ -2951,6 +3050,8 @@
      "reserveEach": 387,
      "expectedEach": 268.79,
      "chance": 0.577,
+     "volume": 72981,
+     "hoursEach": 0.00295918103726274,
      "thin": 93,
      "low": 11530,
      "high": 12222,
@@ -2960,7 +3061,8 @@
    ],
    "expected": {
     "id": 1063,
-    "qty": 58
+    "qty": 58,
+    "profit": 13072
    }
   },
   {
@@ -2985,6 +3087,8 @@
      "reserveEach": 387,
      "expectedEach": 268.79,
      "chance": 0.577,
+     "volume": 72981,
+     "hoursEach": 0.00295918103726274,
      "thin": 93,
      "low": 11530,
      "high": 12222,
@@ -2994,7 +3098,8 @@
    ],
    "expected": {
     "id": 1063,
-    "qty": 93
+    "qty": 93,
+    "profit": 18276
    }
   },
   {
@@ -3024,6 +3129,8 @@
      "reserveEach": 52427,
      "expectedEach": 36318.57,
      "chance": 0.767,
+     "volume": 1162,
+     "hoursEach": 0.3294406624656393,
      "thin": 12,
      "low": 1560071,
      "high": 1653675,
@@ -3060,6 +3167,8 @@
      "reserveEach": 52427,
      "expectedEach": 36318.57,
      "chance": 0.767,
+     "volume": 1162,
+     "hoursEach": 0.3294406624656393,
      "thin": 12,
      "low": 1560071,
      "high": 1653675,
@@ -3069,7 +3178,8 @@
    ],
    "expected": {
     "id": 1064,
-    "qty": 4
+    "qty": 4,
+    "profit": 28642
    }
   },
   {
@@ -3099,6 +3209,8 @@
      "reserveEach": 52427,
      "expectedEach": 36318.57,
      "chance": 0.767,
+     "volume": 1162,
+     "hoursEach": 0.3294406624656393,
      "thin": 12,
      "low": 1560071,
      "high": 1653675,
@@ -3108,7 +3220,8 @@
    ],
    "expected": {
     "id": 1064,
-    "qty": 8
+    "qty": 8,
+    "profit": 11482
    }
   },
   {
@@ -3133,6 +3246,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.777,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8989,
      "low": 441,
      "high": 456,
@@ -3164,6 +3279,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.777,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8989,
      "low": 441,
      "high": 456,
@@ -3195,6 +3312,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.777,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8989,
      "low": 441,
      "high": 456,
@@ -3204,7 +3323,8 @@
    ],
    "expected": {
     "id": 1065,
-    "qty": 8989
+    "qty": 8989,
+    "profit": 15689
    }
   },
   {
@@ -3541,6 +3661,8 @@
      "reserveEach": 63672,
      "expectedEach": 44108.43,
      "chance": 0.638,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 7,
      "thin": 7,
      "record": {
@@ -3582,6 +3704,8 @@
      "reserveEach": 63672,
      "expectedEach": 44108.43,
      "chance": 0.638,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 7,
      "thin": 7,
      "record": {
@@ -3596,7 +3720,8 @@
    ],
    "expected": {
     "id": 1076,
-    "qty": 3
+    "qty": 3,
+    "profit": 28204
    }
   },
   {
@@ -3626,6 +3751,8 @@
      "reserveEach": 63672,
      "expectedEach": 44108.43,
      "chance": 0.638,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 7,
      "thin": 7,
      "record": {
@@ -3640,7 +3767,8 @@
    ],
    "expected": {
     "id": 1076,
-    "qty": 4
+    "qty": 4,
+    "profit": 26062
    }
   },
   {
@@ -3840,6 +3968,8 @@
      "reserveEach": 167777,
      "expectedEach": 116225.33,
      "chance": 0.467,
+     "volume": 322,
+     "hoursEach": 1.393534002229654,
      "thin": 3,
      "low": 4992478,
      "high": 5292027,
@@ -3871,6 +4001,8 @@
      "reserveEach": 167777,
      "expectedEach": 116225.33,
      "chance": 0.467,
+     "volume": 322,
+     "hoursEach": 1.393534002229654,
      "thin": 3,
      "low": 4992478,
      "high": 5292027,
@@ -3902,6 +4034,8 @@
      "reserveEach": 167777,
      "expectedEach": 116225.33,
      "chance": 0.467,
+     "volume": 322,
+     "hoursEach": 1.393534002229654,
      "thin": 3,
      "low": 4992478,
      "high": 5292027,
@@ -4009,6 +4143,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.757,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8956,
      "low": 407,
      "high": 421,
@@ -4040,6 +4176,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.757,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8956,
      "low": 407,
      "high": 421,
@@ -4049,7 +4187,8 @@
    ],
    "expected": {
     "id": 1086,
-    "qty": 4422
+    "qty": 4422,
+    "profit": 10490
    }
   },
   {
@@ -4074,6 +4213,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.757,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8956,
      "low": 407,
      "high": 421,
@@ -4083,7 +4224,8 @@
    ],
    "expected": {
     "id": 1086,
-    "qty": 8956
+    "qty": 8956,
+    "profit": 16071
    }
   },
   {
@@ -4383,6 +4525,8 @@
      "reserveEach": 2,
      "expectedEach": 2.4,
      "chance": 0.682,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 216,
      "high": 224,
@@ -4419,6 +4563,8 @@
      "reserveEach": 2,
      "expectedEach": 2.4,
      "chance": 0.682,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 216,
      "high": 224,
@@ -4455,6 +4601,8 @@
      "reserveEach": 2,
      "expectedEach": 2.4,
      "chance": 0.682,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 216,
      "high": 224,
@@ -4491,6 +4639,8 @@
      "reserveEach": 2,
      "expectedEach": 2.4,
      "chance": 0.682,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 216,
      "high": 224,
@@ -4522,6 +4672,8 @@
      "reserveEach": 7164,
      "expectedEach": 11536.75,
      "chance": 0.518,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1344574,
      "high": 1386256,
@@ -4553,6 +4705,8 @@
      "reserveEach": 7164,
      "expectedEach": 11536.75,
      "chance": 0.518,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1344574,
      "high": 1386256,
@@ -4562,7 +4716,8 @@
    ],
    "expected": {
     "id": 1097,
-    "qty": 3
+    "qty": 3,
+    "profit": 8364
    }
   },
   {
@@ -4587,6 +4742,8 @@
      "reserveEach": 7164,
      "expectedEach": 11536.75,
      "chance": 0.518,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1344574,
      "high": 1386256,
@@ -4596,7 +4753,8 @@
    ],
    "expected": {
     "id": 1097,
-    "qty": 3
+    "qty": 3,
+    "profit": 8364
    }
   },
   {
@@ -4835,6 +4993,8 @@
      "reserveEach": 438,
      "expectedEach": 304.2,
      "chance": 0.466,
+     "volume": 72981,
+     "hoursEach": 0.0037788041896105375,
      "thin": 127,
      "low": 13050,
      "high": 13833,
@@ -4866,6 +5026,8 @@
      "reserveEach": 438,
      "expectedEach": 304.2,
      "chance": 0.466,
+     "volume": 72981,
+     "hoursEach": 0.0037788041896105375,
      "thin": 127,
      "low": 13050,
      "high": 13833,
@@ -4875,7 +5037,8 @@
    ],
    "expected": {
     "id": 1105,
-    "qty": 79
+    "qty": 79,
+    "profit": 17390
    }
   },
   {
@@ -4900,6 +5063,8 @@
      "reserveEach": 438,
      "expectedEach": 304.2,
      "chance": 0.466,
+     "volume": 72981,
+     "hoursEach": 0.0037788041896105375,
      "thin": 127,
      "low": 13050,
      "high": 13833,
@@ -4909,7 +5074,8 @@
    ],
    "expected": {
     "id": 1105,
-    "qty": 79
+    "qty": 79,
+    "profit": 17390
    }
   },
   {
@@ -4934,6 +5100,8 @@
      "reserveEach": 438,
      "expectedEach": 304.2,
      "chance": 0.466,
+     "volume": 72981,
+     "hoursEach": 0.0037788041896105375,
      "thin": 127,
      "low": 13050,
      "high": 13833,
@@ -4943,7 +5111,8 @@
    ],
    "expected": {
     "id": 1105,
-    "qty": 127
+    "qty": 127,
+    "profit": 23784
    }
   },
   {
@@ -4968,6 +5137,8 @@
      "reserveEach": 16174,
      "expectedEach": 15037.75,
      "chance": 0.667,
+     "volume": 1162,
+     "hoursEach": 0.45366649619338834,
      "thin": 3,
      "low": 1752596,
      "high": 1813937,
@@ -4999,6 +5170,8 @@
      "reserveEach": 16174,
      "expectedEach": 15037.75,
      "chance": 0.667,
+     "volume": 1162,
+     "hoursEach": 0.45366649619338834,
      "thin": 3,
      "low": 1752596,
      "high": 1813937,
@@ -5008,7 +5181,8 @@
    ],
    "expected": {
     "id": 1106,
-    "qty": 2
+    "qty": 2,
+    "profit": 10615
    }
   },
   {
@@ -5033,6 +5207,8 @@
      "reserveEach": 16174,
      "expectedEach": 15037.75,
      "chance": 0.667,
+     "volume": 1162,
+     "hoursEach": 0.45366649619338834,
      "thin": 3,
      "low": 1752596,
      "high": 1813937,
@@ -5042,7 +5218,8 @@
    ],
    "expected": {
     "id": 1106,
-    "qty": 2
+    "qty": 2,
+    "profit": 10615
    }
   },
   {
@@ -5067,6 +5244,8 @@
      "reserveEach": 17,
      "expectedEach": 12,
      "chance": 0.654,
+     "volume": 2811533,
+     "hoursEach": 0.0004802835447445898,
      "thin": 3621,
      "low": 499,
      "high": 529,
@@ -5098,6 +5277,8 @@
      "reserveEach": 17,
      "expectedEach": 12,
      "chance": 0.654,
+     "volume": 2811533,
+     "hoursEach": 0.0004802835447445898,
      "thin": 3621,
      "low": 499,
      "high": 529,
@@ -5107,7 +5288,8 @@
    ],
    "expected": {
     "id": 1107,
-    "qty": 3607
+    "qty": 3607,
+    "profit": 24749
    }
   },
   {
@@ -5132,6 +5314,8 @@
      "reserveEach": 17,
      "expectedEach": 12,
      "chance": 0.654,
+     "volume": 2811533,
+     "hoursEach": 0.0004802835447445898,
      "thin": 3621,
      "low": 499,
      "high": 529,
@@ -5141,7 +5325,8 @@
    ],
    "expected": {
     "id": 1107,
-    "qty": 3621
+    "qty": 3621,
+    "profit": 24807
    }
   },
   {
@@ -5171,6 +5356,8 @@
      "reserveEach": 337,
      "expectedEach": 264,
      "chance": 0.406,
+     "volume": 10502,
+     "hoursEach": 0.029311681036962974,
      "proven": 4,
      "thin": 59,
      "record": {
@@ -5185,7 +5372,8 @@
    ],
    "expected": {
     "id": 1108,
-    "qty": 5
+    "qty": 5,
+    "profit": 1478
    }
   },
   {
@@ -5215,6 +5403,8 @@
      "reserveEach": 337,
      "expectedEach": 264,
      "chance": 0.406,
+     "volume": 10502,
+     "hoursEach": 0.029311681036962974,
      "proven": 4,
      "thin": 59,
      "record": {
@@ -5229,7 +5419,8 @@
    ],
    "expected": {
     "id": 1108,
-    "qty": 54
+    "qty": 54,
+    "profit": 9024
    }
   },
   {
@@ -5259,6 +5450,8 @@
      "reserveEach": 337,
      "expectedEach": 264,
      "chance": 0.406,
+     "volume": 10502,
+     "hoursEach": 0.029311681036962974,
      "proven": 4,
      "thin": 59,
      "record": {
@@ -5273,7 +5466,8 @@
    ],
    "expected": {
     "id": 1108,
-    "qty": 54
+    "qty": 54,
+    "profit": 9024
    }
   },
   {
@@ -5303,6 +5497,8 @@
      "reserveEach": 337,
      "expectedEach": 264,
      "chance": 0.406,
+     "volume": 10502,
+     "hoursEach": 0.029311681036962974,
      "proven": 4,
      "thin": 59,
      "record": {
@@ -5317,7 +5513,8 @@
    ],
    "expected": {
     "id": 1108,
-    "qty": 59
+    "qty": 59,
+    "profit": 9577
    }
   },
   {
@@ -5461,6 +5658,8 @@
      "reserveEach": 2,
      "expectedEach": 3,
      "chance": 0.416,
+     "volume": 7272787,
+     "hoursEach": 0.0000646651509155292,
      "thin": 36993,
      "low": 310,
      "high": 320,
@@ -5492,6 +5691,8 @@
      "reserveEach": 2,
      "expectedEach": 3,
      "chance": 0.416,
+     "volume": 7272787,
+     "hoursEach": 0.0000646651509155292,
      "thin": 36993,
      "low": 310,
      "high": 320,
@@ -5523,6 +5724,8 @@
      "reserveEach": 2,
      "expectedEach": 3,
      "chance": 0.416,
+     "volume": 7272787,
+     "hoursEach": 0.0000646651509155292,
      "thin": 36993,
      "low": 310,
      "high": 320,
@@ -5532,7 +5735,8 @@
    ],
    "expected": {
     "id": 1113,
-    "qty": 16129
+    "qty": 16129,
+    "profit": 20524
    }
   },
   {
@@ -5557,6 +5761,8 @@
      "reserveEach": 8936,
      "expectedEach": 6190.8,
      "chance": 0.601,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "proven": 2,
      "thin": 5,
      "record": {
@@ -5593,6 +5799,8 @@
      "reserveEach": 8936,
      "expectedEach": 6190.8,
      "chance": 0.601,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "proven": 2,
      "thin": 5,
      "record": {
@@ -5607,7 +5815,8 @@
    ],
    "expected": {
     "id": 1114,
-    "qty": 5
+    "qty": 5,
+    "profit": 14444
    }
   },
   {
@@ -5632,6 +5841,8 @@
      "reserveEach": 8936,
      "expectedEach": 6190.8,
      "chance": 0.601,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "proven": 2,
      "thin": 5,
      "record": {
@@ -5646,7 +5857,8 @@
    ],
    "expected": {
     "id": 1114,
-    "qty": 5
+    "qty": 5,
+    "profit": 14444
    }
   },
   {
@@ -5671,6 +5883,8 @@
      "reserveEach": 8936,
      "expectedEach": 6190.8,
      "chance": 0.601,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "proven": 2,
      "thin": 5,
      "record": {
@@ -5685,7 +5899,8 @@
    ],
    "expected": {
     "id": 1114,
-    "qty": 5
+    "qty": 5,
+    "profit": 14444
    }
   },
   {
@@ -5773,6 +5988,8 @@
      "reserveEach": 9,
      "expectedEach": 6.6,
      "chance": 0.461,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 273,
      "high": 289,
@@ -5804,6 +6021,8 @@
      "reserveEach": 9,
      "expectedEach": 6.6,
      "chance": 0.461,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 273,
      "high": 289,
@@ -5813,7 +6032,8 @@
    ],
    "expected": {
     "id": 1117,
-    "qty": 5860
+    "qty": 5860,
+    "profit": 31156
    }
   },
   {
@@ -5838,6 +6058,8 @@
      "reserveEach": 9,
      "expectedEach": 6.6,
      "chance": 0.461,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 273,
      "high": 289,
@@ -5847,7 +6069,8 @@
    ],
    "expected": {
     "id": 1117,
-    "qty": 8436
+    "qty": 8436,
+    "profit": 40239
    }
   },
   {
@@ -5872,6 +6095,8 @@
      "reserveEach": 9,
      "expectedEach": 6.6,
      "chance": 0.461,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 273,
      "high": 289,
@@ -5881,7 +6106,8 @@
    ],
    "expected": {
     "id": 1117,
-    "qty": 11000
+    "qty": 11000,
+    "profit": 48087
    }
   },
   {
@@ -5955,6 +6181,8 @@
      "reserveEach": 4,
      "expectedEach": 3.6,
      "chance": 0.73,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "proven": 1,
      "thin": 11634,
      "record": {
@@ -5978,7 +6206,8 @@
    "own": {},
    "expected": {
     "id": 1002,
-    "qty": 4724
+    "qty": 4724,
+    "profit": 11127
    }
   },
   {
@@ -6002,6 +6231,8 @@
      "reserveEach": 4,
      "expectedEach": 3.6,
      "chance": 0.73,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "proven": 1,
      "thin": 11634,
      "record": {
@@ -6025,7 +6256,8 @@
    "own": {},
    "expected": {
     "id": 1002,
-    "qty": 1049
+    "qty": 1049,
+    "profit": 3763
    }
   },
   {
@@ -6049,6 +6281,8 @@
      "reserveEach": 55576,
      "expectedEach": 38499,
      "chance": 0.586,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1653727,
      "high": 1752951,
@@ -6067,7 +6301,8 @@
    "own": {},
    "expected": {
     "id": 1013,
-    "qty": 4
+    "qty": 4,
+    "profit": 26669
    }
   },
   {
@@ -6091,6 +6326,8 @@
      "reserveEach": 55576,
      "expectedEach": 38499,
      "chance": 0.586,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1653727,
      "high": 1752951,
@@ -6109,7 +6346,8 @@
    "own": {},
    "expected": {
     "id": 1013,
-    "qty": 1
+    "qty": 1,
+    "profit": 18805
    }
   },
   {
@@ -6133,6 +6371,8 @@
      "reserveEach": 1,
      "expectedEach": 1.2,
      "chance": 0.877,
+     "volume": 1066149,
+     "hoursEach": 0.0003851996824577142,
      "proven": 9,
      "thin": 8148,
      "record": {
@@ -6158,7 +6398,8 @@
    },
    "expected": {
     "id": 1015,
-    "qty": 759
+    "qty": 759,
+    "profit": 1219
    }
   },
   {
@@ -6182,6 +6423,8 @@
      "reserveEach": 1,
      "expectedEach": 1.2,
      "chance": 0.877,
+     "volume": 1066149,
+     "hoursEach": 0.0003851996824577142,
      "proven": 9,
      "thin": 8148,
      "record": {
@@ -6207,7 +6450,8 @@
    },
    "expected": {
     "id": 1015,
-    "qty": 8148
+    "qty": 8148,
+    "profit": 7811
    }
   },
   {
@@ -6231,6 +6475,8 @@
      "reserveEach": 15,
      "expectedEach": 10.8,
      "chance": 0.522,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8125,
      "low": 457,
      "high": 484,
@@ -6249,7 +6495,8 @@
    "own": {},
    "expected": {
     "id": 1023,
-    "qty": 5078
+    "qty": 5078,
+    "profit": 30579
    }
   },
   {
@@ -6273,6 +6520,8 @@
      "reserveEach": 15,
      "expectedEach": 10.8,
      "chance": 0.522,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8125,
      "low": 457,
      "high": 484,
@@ -6291,7 +6540,8 @@
    "own": {},
    "expected": {
     "id": 1023,
-    "qty": 1625
+    "qty": 1625,
+    "profit": 14333
    }
   },
   {
@@ -6315,6 +6565,8 @@
      "reserveEach": 3,
      "expectedEach": 3,
      "chance": 0.608,
+     "volume": 10850949,
+     "hoursEach": 0.00007855689970962021,
      "thin": 16579,
      "low": 280,
      "high": 290,
@@ -6335,7 +6587,8 @@
    },
    "expected": {
     "id": 1027,
-    "qty": 6428
+    "qty": 6428,
+    "profit": 13959
    }
   },
   {
@@ -6359,6 +6612,8 @@
      "reserveEach": 3,
      "expectedEach": 3,
      "chance": 0.608,
+     "volume": 10850949,
+     "hoursEach": 0.00007855689970962021,
      "thin": 16579,
      "low": 280,
      "high": 290,
@@ -6400,6 +6655,8 @@
      "reserveEach": 8611,
      "expectedEach": 5965.67,
      "chance": 0.838,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "thin": 5,
      "low": 256250,
      "high": 271625,
@@ -6441,6 +6698,8 @@
      "reserveEach": 8611,
      "expectedEach": 5965.67,
      "chance": 0.838,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "thin": 5,
      "low": 256250,
      "high": 271625,
@@ -6461,7 +6720,8 @@
    },
    "expected": {
     "id": 1030,
-    "qty": 5
+    "qty": 5,
+    "profit": 14126
    }
   },
   {
@@ -6485,6 +6745,8 @@
      "reserveEach": 8,
      "expectedEach": 6,
      "chance": 0.586,
+     "volume": 16811325,
+     "hoursEach": 0.000029389434672785178,
      "thin": 15368,
      "low": 227,
      "high": 241,
@@ -6505,7 +6767,8 @@
    },
    "expected": {
     "id": 1033,
-    "qty": 11000
+    "qty": 11000,
+    "profit": 44031
    }
   },
   {
@@ -6529,6 +6792,8 @@
      "reserveEach": 8,
      "expectedEach": 6,
      "chance": 0.586,
+     "volume": 16811325,
+     "hoursEach": 0.000029389434672785178,
      "thin": 15368,
      "low": 227,
      "high": 241,
@@ -6549,7 +6814,8 @@
    },
    "expected": {
     "id": 1033,
-    "qty": 7929
+    "qty": 7929,
+    "profit": 35281
    }
   },
   {
@@ -6573,6 +6839,8 @@
      "reserveEach": 48,
      "expectedEach": 33,
      "chance": 0.484,
+     "volume": 315064,
+     "hoursEach": 0.0020994619247043933,
      "thin": 1562,
      "low": 1420,
      "high": 1505,
@@ -6612,6 +6880,8 @@
      "reserveEach": 48,
      "expectedEach": 33,
      "chance": 0.484,
+     "volume": 315064,
+     "hoursEach": 0.0020994619247043933,
      "thin": 1562,
      "low": 1420,
      "high": 1505,
@@ -6651,6 +6921,8 @@
      "reserveEach": 6,
      "expectedEach": 4.8,
      "chance": 0.681,
+     "volume": 30640471,
+     "hoursEach": 0.000016767046554160087,
      "thin": 30000,
      "low": 195,
      "high": 207,
@@ -6690,6 +6962,8 @@
      "reserveEach": 6,
      "expectedEach": 4.8,
      "chance": 0.681,
+     "volume": 30640471,
+     "hoursEach": 0.000016767046554160087,
      "thin": 30000,
      "low": 195,
      "high": 207,
@@ -6729,6 +7003,8 @@
      "reserveEach": 63820,
      "expectedEach": 44210.5,
      "chance": 0.512,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 0,
      "thin": 4,
      "record": {
@@ -6773,6 +7049,8 @@
      "reserveEach": 63820,
      "expectedEach": 44210.5,
      "chance": 0.512,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 0,
      "thin": 4,
      "record": {
@@ -6796,7 +7074,8 @@
    "own": {},
    "expected": {
     "id": 1055,
-    "qty": 1
+    "qty": 1,
+    "profit": 20450
    }
   },
   {
@@ -6820,6 +7099,8 @@
      "reserveEach": 387,
      "expectedEach": 268.79,
      "chance": 0.577,
+     "volume": 72981,
+     "hoursEach": 0.00295918103726274,
      "thin": 93,
      "low": 11530,
      "high": 12222,
@@ -6840,7 +7121,8 @@
    },
    "expected": {
     "id": 1063,
-    "qty": 58
+    "qty": 58,
+    "profit": 13072
    }
   },
   {
@@ -6864,6 +7146,8 @@
      "reserveEach": 387,
      "expectedEach": 268.79,
      "chance": 0.577,
+     "volume": 72981,
+     "hoursEach": 0.00295918103726274,
      "thin": 93,
      "low": 11530,
      "high": 12222,
@@ -6884,7 +7168,8 @@
    },
    "expected": {
     "id": 1063,
-    "qty": 58
+    "qty": 58,
+    "profit": 13072
    }
   },
   {
@@ -6908,6 +7193,8 @@
      "reserveEach": 52427,
      "expectedEach": 36318.57,
      "chance": 0.767,
+     "volume": 1162,
+     "hoursEach": 0.3294406624656393,
      "thin": 12,
      "low": 1560071,
      "high": 1653675,
@@ -6947,6 +7234,8 @@
      "reserveEach": 52427,
      "expectedEach": 36318.57,
      "chance": 0.767,
+     "volume": 1162,
+     "hoursEach": 0.3294406624656393,
      "thin": 12,
      "low": 1560071,
      "high": 1653675,
@@ -6965,7 +7254,8 @@
    "own": {},
    "expected": {
     "id": 1064,
-    "qty": 2
+    "qty": 2,
+    "profit": 25771
    }
   },
   {
@@ -6989,6 +7279,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.777,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8989,
      "low": 441,
      "high": 456,
@@ -7028,6 +7320,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.777,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8989,
      "low": 441,
      "high": 456,
@@ -7067,6 +7361,8 @@
      "reserveEach": 63672,
      "expectedEach": 44108.43,
      "chance": 0.638,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 7,
      "thin": 7,
      "record": {
@@ -7111,6 +7407,8 @@
      "reserveEach": 63672,
      "expectedEach": 44108.43,
      "chance": 0.638,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "proven": 7,
      "thin": 7,
      "record": {
@@ -7155,6 +7453,8 @@
      "reserveEach": 167777,
      "expectedEach": 116225.33,
      "chance": 0.467,
+     "volume": 322,
+     "hoursEach": 1.393534002229654,
      "thin": 3,
      "low": 4992478,
      "high": 5292027,
@@ -7173,7 +7473,8 @@
    "own": {},
    "expected": {
     "id": 1083,
-    "qty": 1
+    "qty": 1,
+    "profit": 22518
    }
   },
   {
@@ -7197,6 +7498,8 @@
      "reserveEach": 167777,
      "expectedEach": 116225.33,
      "chance": 0.467,
+     "volume": 322,
+     "hoursEach": 1.393534002229654,
      "thin": 3,
      "low": 4992478,
      "high": 5292027,
@@ -7236,6 +7539,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.757,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8956,
      "low": 407,
      "high": 421,
@@ -7275,6 +7580,8 @@
      "reserveEach": 3,
      "expectedEach": 3.6,
      "chance": 0.757,
+     "volume": 2811533,
+     "hoursEach": 0.00028469638534909787,
      "thin": 8956,
      "low": 407,
      "high": 421,
@@ -7314,6 +7621,8 @@
      "reserveEach": 2,
      "expectedEach": 2.4,
      "chance": 0.682,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 216,
      "high": 224,
@@ -7355,6 +7664,8 @@
      "reserveEach": 2,
      "expectedEach": 2.4,
      "chance": 0.682,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 216,
      "high": 224,
@@ -7396,6 +7707,8 @@
      "reserveEach": 7164,
      "expectedEach": 11536.75,
      "chance": 0.518,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1344574,
      "high": 1386256,
@@ -7435,6 +7748,8 @@
      "reserveEach": 7164,
      "expectedEach": 11536.75,
      "chance": 0.518,
+     "volume": 782,
+     "hoursEach": 0.4181647418543599,
      "thin": 8,
      "low": 1344574,
      "high": 1386256,
@@ -7474,6 +7789,8 @@
      "reserveEach": 438,
      "expectedEach": 304.2,
      "chance": 0.466,
+     "volume": 72981,
+     "hoursEach": 0.0037788041896105375,
      "thin": 127,
      "low": 13050,
      "high": 13833,
@@ -7515,6 +7832,8 @@
      "reserveEach": 438,
      "expectedEach": 304.2,
      "chance": 0.466,
+     "volume": 72981,
+     "hoursEach": 0.0037788041896105375,
      "thin": 127,
      "low": 13050,
      "high": 13833,
@@ -7535,7 +7854,8 @@
    },
    "expected": {
     "id": 1105,
-    "qty": 127
+    "qty": 127,
+    "profit": 23784
    }
   },
   {
@@ -7559,6 +7879,8 @@
      "reserveEach": 16174,
      "expectedEach": 15037.75,
      "chance": 0.667,
+     "volume": 1162,
+     "hoursEach": 0.45366649619338834,
      "thin": 3,
      "low": 1752596,
      "high": 1813937,
@@ -7598,6 +7920,8 @@
      "reserveEach": 16174,
      "expectedEach": 15037.75,
      "chance": 0.667,
+     "volume": 1162,
+     "hoursEach": 0.45366649619338834,
      "thin": 3,
      "low": 1752596,
      "high": 1813937,
@@ -7637,6 +7961,8 @@
      "reserveEach": 17,
      "expectedEach": 12,
      "chance": 0.654,
+     "volume": 2811533,
+     "hoursEach": 0.0004802835447445898,
      "thin": 3621,
      "low": 499,
      "high": 529,
@@ -7655,7 +7981,8 @@
    "own": {},
    "expected": {
     "id": 1107,
-    "qty": 3607
+    "qty": 3607,
+    "profit": 24749
    }
   },
   {
@@ -7679,6 +8006,8 @@
      "reserveEach": 17,
      "expectedEach": 12,
      "chance": 0.654,
+     "volume": 2811533,
+     "hoursEach": 0.0004802835447445898,
      "thin": 3621,
      "low": 499,
      "high": 529,
@@ -7718,6 +8047,8 @@
      "reserveEach": 337,
      "expectedEach": 264,
      "chance": 0.406,
+     "volume": 10502,
+     "hoursEach": 0.029311681036962974,
      "proven": 4,
      "thin": 59,
      "record": {
@@ -7743,7 +8074,8 @@
    },
    "expected": {
     "id": 1108,
-    "qty": 54
+    "qty": 54,
+    "profit": 9024
    }
   },
   {
@@ -7767,6 +8099,8 @@
      "reserveEach": 337,
      "expectedEach": 264,
      "chance": 0.406,
+     "volume": 10502,
+     "hoursEach": 0.029311681036962974,
      "proven": 4,
      "thin": 59,
      "record": {
@@ -7792,7 +8126,8 @@
    },
    "expected": {
     "id": 1108,
-    "qty": 54
+    "qty": 54,
+    "profit": 9024
    }
   },
   {
@@ -7816,6 +8151,8 @@
      "reserveEach": 2,
      "expectedEach": 3,
      "chance": 0.416,
+     "volume": 7272787,
+     "hoursEach": 0.0000646651509155292,
      "thin": 36993,
      "low": 310,
      "high": 320,
@@ -7834,7 +8171,8 @@
    "own": {},
    "expected": {
     "id": 1113,
-    "qty": 16129
+    "qty": 16129,
+    "profit": 20524
    }
   },
   {
@@ -7858,6 +8196,8 @@
      "reserveEach": 2,
      "expectedEach": 3,
      "chance": 0.416,
+     "volume": 7272787,
+     "hoursEach": 0.0000646651509155292,
      "thin": 36993,
      "low": 310,
      "high": 320,
@@ -7897,6 +8237,8 @@
      "reserveEach": 8936,
      "expectedEach": 6190.8,
      "chance": 0.601,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "proven": 2,
      "thin": 5,
      "record": {
@@ -7922,7 +8264,8 @@
    },
    "expected": {
     "id": 1114,
-    "qty": 5
+    "qty": 5,
+    "profit": 14444
    }
   },
   {
@@ -7946,6 +8289,8 @@
      "reserveEach": 8936,
      "expectedEach": 6190.8,
      "chance": 0.601,
+     "volume": 1190,
+     "hoursEach": 0.3716090672612411,
      "proven": 2,
      "thin": 5,
      "record": {
@@ -7971,7 +8316,8 @@
    },
    "expected": {
     "id": 1114,
-    "qty": 5
+    "qty": 5,
+    "profit": 14444
    }
   },
   {
@@ -7995,6 +8341,8 @@
      "reserveEach": 9,
      "expectedEach": 6.6,
      "chance": 0.461,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 273,
      "high": 289,
@@ -8015,7 +8363,8 @@
    },
    "expected": {
     "id": 1117,
-    "qty": 6593
+    "qty": 6593,
+    "profit": 33887
    }
   },
   {
@@ -8039,6 +8388,8 @@
      "reserveEach": 9,
      "expectedEach": 6.6,
      "chance": 0.461,
+     "volume": 16811325,
+     "hoursEach": 0.00002275343296970617,
      "thin": 11000,
      "low": 273,
      "high": 289,

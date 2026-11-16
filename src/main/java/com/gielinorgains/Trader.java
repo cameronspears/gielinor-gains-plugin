@@ -1345,9 +1345,9 @@ class Trader
 	}
 
 	/** The next picks a free slot would get, for Up next. */
-	List<PlanFeed.Pick> upNext(PlanFeed.Feed feed, long now, int count)
+	List<TradePanel.UpNext> upNext(PlanFeed.Feed feed, long now, int count)
 	{
-		List<PlanFeed.Pick> next = new ArrayList<>();
+		List<TradePanel.UpNext> next = new ArrayList<>();
 		Long budget = budget();
 		if (budget == null || feed == null || !feed.fresh(now))
 		{
@@ -1365,7 +1365,8 @@ class Trader
 			{
 				break;
 			}
-			next.add(byId.get(fill.getId()));
+			PlanFeed.Pick pick = byId.get(fill.getId());
+			next.add(new TradePanel.UpNext(pick.id, pick.name, TraderRules.expected(pick, fill.getQty())));
 			taken.add(fill.getId());
 		}
 		return next;

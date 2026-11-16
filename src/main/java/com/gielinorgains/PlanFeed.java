@@ -44,8 +44,13 @@ class PlanFeed
 		String tier;
 		Boolean big;
 		long reserveEach;
+		/** Expected profit per unit at {@code qty}: the Market's figure. See {@link TraderRules#expected}. */
 		double expectedEach;
 		double chance;
+		/** Items traded a day; null from a site that sends only {@code expectedEach}. */
+		Double volume;
+		/** Estimated hours to close one unit; null when it never closes. */
+		Double hoursEach;
 		Integer proven;
 		long thin;
 		Record record;
