@@ -61,7 +61,7 @@ public class MarketListTest
 		assertEquals("11,000", top.getQuantity());
 		assertEquals("21K", top.getProfit());
 		assertEquals("69%", top.getChance());
-		assertEquals("Last 10 tests: 8 made money", top.getRecord());
+		assertEquals("8 of last 10 tests made money", top.getRecord());
 		assertEquals("as the site writes totals", "+1.1% after tax over 6 tests", view.getRows().get(1).getRecord());
 
 		String tip = String.join(" ", top.getTooltip());
@@ -114,7 +114,7 @@ public class MarketListTest
 		response.items.get("561").record = null;
 		MarketList.View view = view(ItemCheck.Snapshot.of(response, SIX_MINUTES_IN, SIX_MINUTES_IN), false,
 			SIX_MINUTES_IN, true);
-		assertEquals("Last 10 tests: 8 made money", view.getRows().get(0).getRecord());
+		assertEquals("8 of last 10 tests made money", view.getRows().get(0).getRecord());
 		assertNull(view.getRows().get(1).getRecord());
 	}
 

@@ -76,24 +76,6 @@ final class TraderRules
 	}
 
 	/**
-	 * Whether to stop adding to a buy (the website's "Stop adding to this trade"): at today's sale price the
-	 * buy price leaves no profit after tax. False while today's price isn't known.
-	 */
-	static boolean stopBuy(long buyPrice, long sellNow, boolean taxFree)
-	{
-		return buyPrice > 0 && sellNow > 0 && profitEach(sellNow, buyPrice, taxFree) <= 0;
-	}
-
-	static String stopBuyWhy(long filled)
-	{
-		String why = "At today's price, this buy no longer makes a profit after tax. ";
-		return filled > 0
-			? why + "Cancel the rest of the offer. You keep the " + BoxText.whole(filled)
-			+ " you bought, and we'll help you sell them."
-			: why + "Cancel the offer and collect your GP.";
-	}
-
-	/**
 	 * Expected profit for buying {@code qty} of a pick, as the website's Trader shows it: the
 	 * site's expected-profit model (utils/trading/expectedOutcome.ts, pickExpected in rules.ts)
 	 * worked out at this size, since it doesn't grow in step with quantity. A site from before
@@ -209,7 +191,7 @@ final class TraderRules
 		String time = DateTimeFormatter.ofPattern("h:mm a", Locale.US).format(Instant.ofEpochMilli(opensAt).atZone(zone));
 		return NO_ROOM + " Other Trader players have already planned as much of "
 			+ (full == 1 ? "one item" : full + " items") + " as the market can take. Room opens again at " + time
-			+ ". You can choose items yourself until then.";
+			+ ". Trader picks again then.";
 	}
 
 	/**

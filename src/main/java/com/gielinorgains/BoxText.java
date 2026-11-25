@@ -471,7 +471,7 @@ final class BoxText
 		return new Box(Collections.unmodifiableList(lines), Collections.unmodifiableList(tooltip));
 	}
 
-	/** The record line, in the words of the Market's rows ("Last 10 tests: 7 made money"). */
+	/** The record line, in the words of the Market's rows ("7 of last 10 tests made money"). */
 	static String recordLine(ItemCheck.Record record)
 	{
 		return recordLine(record, "Record: ");
@@ -495,7 +495,7 @@ final class BoxText
 		{
 			return madeMoney == 1 ? "Last test: made money" : "Last test: didn't make money";
 		}
-		return "Last " + checks.length() + " tests: " + madeMoney + " made money";
+		return madeMoney + " of last " + checks.length() + " tests made money";
 	}
 
 	static String profitTip(String tax)

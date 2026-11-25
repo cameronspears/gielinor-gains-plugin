@@ -260,21 +260,21 @@
         "madeMoney": 7,
         "total": 10
       },
-      "Last 10 tests: 7 made money"
+      "7 of last 10 tests made money"
     ],
     [
       {
         "madeMoney": 0,
         "total": 2
       },
-      "Last 2 tests: 0 made money"
+      "0 of last 2 tests made money"
     ],
     [
       {
         "madeMoney": 3,
         "total": 3
       },
-      "Last 3 tests: 3 made money"
+      "3 of last 3 tests made money"
     ]
   ],
   "reasons": {
@@ -295,11 +295,11 @@
   "sharedLimitNotices": [
     [
       1,
-      "No automatic pick has room right now. Other Trader players have already planned as much of one item as the market can take. Room opens again at {time}. You can choose items yourself until then."
+      "No automatic pick has room right now. Other Trader players have already planned as much of one item as the market can take. Room opens again at {time}. Trader picks again then."
     ],
     [
       3,
-      "No automatic pick has room right now. Other Trader players have already planned as much of 3 items as the market can take. Room opens again at {time}. You can choose items yourself until then."
+      "No automatic pick has room right now. Other Trader players have already planned as much of 3 items as the market can take. Room opens again at {time}. Trader picks again then."
     ]
   ],
   "pump": {

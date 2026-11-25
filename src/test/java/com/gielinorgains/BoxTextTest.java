@@ -46,7 +46,7 @@ public class BoxTextTest
 			"Expected profit | 21K",
 			"If it all sells | 55K",
 			"Chance | 69%",
-			"Last 10 tests: 8 made money",
+			"8 of last 10 tests made money",
 			"1101101111",
 			"Prices from 6 minutes ago"), lines(box(2, false)));
 		assertEquals("the item page's squares, under the words", BoxText.Kind.SQUARES,
@@ -289,8 +289,8 @@ public class BoxTextTest
 	@Test
 	public void recordLines() throws Exception
 	{
-		assertEquals("Last 2 tests: 1 made money", lines(edge(561)).get(3));
-		assertEquals("Last 10 tests: 5 made money", BoxText.recordLine(Fixtures.edgeSnapshot().items.get(12).record));
+		assertEquals("1 of last 2 tests made money", lines(edge(561)).get(3));
+		assertEquals("5 of last 10 tests made money", BoxText.recordLine(Fixtures.edgeSnapshot().items.get(12).record));
 		ItemCheck.Record none = new ItemCheck.Record();
 		none.avgReturn = 0.0;
 		none.flips = 0;
@@ -326,7 +326,7 @@ public class BoxTextTest
 			"Gielinor Gains",
 			"Our prices are 22 minutes old.",
 			"We'll show them once they update.",
-			"Last 10 tests: 8 made money",
+			"8 of last 10 tests made money",
 			"1101101111"),
 			lines(BoxText.forItem(snapshot, false, 2, false, SOURCE_AT + 22 * MINUTE)));
 		assertEquals("Our prices are over an hour old.",
@@ -343,7 +343,7 @@ public class BoxTextTest
 			"Gielinor Gains",
 			"Our prices aren't up to date right now.",
 			"We'll show them once they update.",
-			"Last 10 tests: 8 made money",
+			"8 of last 10 tests made money",
 			"1101101111"),
 			lines(BoxText.forItem(notFresh, false, 2, false, SIX_MINUTES_IN)));
 	}
@@ -370,7 +370,7 @@ public class BoxTextTest
 			"Gielinor Gains",
 			"Can't reach Gielinor Gains.",
 			"We'll try again soon.",
-			"Last 10 tests: 8 made money",
+			"8 of last 10 tests made money",
 			"1101101111"),
 			lines(BoxText.forItem(snapshot, true, 2, false, STALE_AT)));
 		assertEquals(Arrays.asList("Gielinor Gains", "Can't reach Gielinor Gains.", "We'll try again soon."),

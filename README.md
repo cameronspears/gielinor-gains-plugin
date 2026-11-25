@@ -58,9 +58,7 @@ Each slot shows its next step and its expected profit after the 2% tax. When a s
 picks the next trade. **Up next** shows what that will be. **Today so far** adds up your profit.
 
 If the game shows something else, use **Already done** or **Skip for now**. If a sale hasn't moved
-for 8 hours, Trader suggests a lower price. It guides you through Modify to change it. If the price
-drops while you buy and no profit is left, Trader tells you to cancel the rest. You can **Keep
-buying** if you'd rather wait.
+for 8 hours, Trader suggests a lower price. It guides you through Modify to change it.
 
 A **Rebound** is a sudden price drop that looks like the ones that bounced back in our tests. When
 one is fresh, it shows above your slots. Click **Add to plan** to trade it, or **Not now**.
@@ -71,7 +69,7 @@ The Market tab lists today's flips from the free Market. Each one shows:
 
 - expected profit after tax, and Chance: how often trades like this made money within 4 hours;
 - our buy and sell prices, and how many to buy;
-- the item's track record, misses included ("Last 10 tests: 7 made money").
+- the item's track record, misses included ("7 of last 10 tests made money").
 
 Click a flip to have the GE box guide you through it. If you're signed in, **Add to Trader** puts it in
 your plan. **Item page** opens its page on the website.
